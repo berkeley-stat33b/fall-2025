@@ -1,0 +1,35 @@
+---
+title: "10) Imports & Exports I"
+---
+
+
+## 📖 Lecture
+
+This week, we'll talk about concepts and functions that have to do with so-called input(s)-output(s), or simply put, with importing and exporting operations. For example:
+
+- how to import a data table
+- how to import data values
+- how to import text content
+
+
+
+## 🎯 Objectives
+
+At the end of this week you will be able to:
+
+- Import tables with `read.table()` and derived functions: `read.csv()`, `read.delim()`, etc
+- Use `scan()` to import data values
+- Import text with `readLines()`
+
+
+## 📚 Reading
+
+- <a href="https://www.gastonsanchez.com/R-coding-basics/6-02-import-tables.html" target="_blank">https://www.gastonsanchez.com/R-coding-basics/6-02-import-tables.html</a>
+
+
+
+## 🔬 Lab
+
+Work with some basic examples to import resources.
+
+

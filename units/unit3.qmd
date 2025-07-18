@@ -1,0 +1,37 @@
+---
+title: "3) Matrices and Lists"
+---
+
+
+## 📖 Lecture
+
+We continue describing more data objects in R such as
+
+- atomic objects: __matrices__ (and N-dim arrays)
+- non-atomic objects: __lists__
+
+
+
+## 🎯 Objectives
+
+At the end of this week you will be able to:
+
+- Create matrices with the function `matrix()`
+- Explain how R internally stores matrices
+- Describe why matrices are atomic objects
+- Describe in what sense a list is considered to be a non-atomic vector
+ 
+
+
+## 📚 Reading
+
+- <a href="https://www.gastonsanchez.com/R-coding-basics/3-01-matrices-intro.html" target="_blank">https://www.gastonsanchez.com/R-coding-basics/3-01-matrices-intro.html</a>
+
+- <a href="https://www.gastonsanchez.com/R-coding-basics/4-01-lists.html" target="_blank">https://www.gastonsanchez.com/R-coding-basics/4-01-lists.html</a>
+
+
+
+## 🔬 Lab
+
+More practice with data objects.
+

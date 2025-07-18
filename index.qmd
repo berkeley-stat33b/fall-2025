@@ -1,0 +1,31 @@
+---
+title: "STAT 33B: Intro to Adv. Prog. in R"
+listing:
+  - id: schedule
+    template: schedule.ejs
+    contents: schedule.yml
+  - id: buttons
+    template: buttons.ejs
+    contents: buttons.yml
+---
+
+::: {#buttons}
+:::
+
+
+::: {.callout-note title="Announcements 📣"}
+
+Final Exam on May-13th (7-10pm)
+
+See announcements in bCourses
+:::
+
+
+## Schedule 📅
+
+Tentative calendar subject to change.
+
+::: {#schedule}
+:::
+
+
