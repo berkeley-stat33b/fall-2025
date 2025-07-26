@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>6) ggplot</title>
+<title>6) Tidyverse part 2</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -92,7 +92,7 @@ gtag('config', 'G-CES9J82GLL', { 'anonymize_ip': true});
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../units/unit1.html">Units</a></li><li class="breadcrumb-item"><a href="../units/unit6.html">6) ggplot</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../units/unit1.html">Units</a></li><li class="breadcrumb-item"><a href="../units/unit6.html">6) Tidyverse part 2</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -159,7 +159,7 @@ gtag('config', 'G-CES9J82GLL', { 'anonymize_ip': true});
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../units/unit2.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">2) R Vectors</span></a>
+ <span class="menu-text">2) Vectors and Factors</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -177,55 +177,58 @@ gtag('config', 'G-CES9J82GLL', { 'anonymize_ip': true});
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../units/unit5.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">5) dplyr</span></a>
+ <span class="menu-text">5) Tidyverse part 1</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../units/unit6.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">6) ggplot</span></a>
+ <span class="menu-text">6) Tidyverse part 2</span></a>
   </div>
 </li>
           <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../units/unit7.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">7) Conditionals</span></a>
-  </div>
-</li>
+ <span class="menu-text">units/unit7.qmd</span>
+  </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../units/unit8.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">8) Iterations</span></a>
+ <span class="menu-text">8) Midterm</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../units/unit9.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">9) Functions</span></a>
+ <span class="menu-text">9) Conditionals</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../units/unit10.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">10) Imports &amp; Exports I</span></a>
+ <span class="menu-text">10) Iterations</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../units/unit11.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">11) Imports &amp; Exports II</span></a>
+ <span class="menu-text">11) Functions</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../units/unit12.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">12) Performance</span></a>
+ <span class="menu-text">12) Bindings and Environments</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../units/unit13.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">13) Scoping</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../units/unit14.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">14) Performance</span></a>
   </div>
 </li>
       </ul>
@@ -287,19 +290,19 @@ gtag('config', 'G-CES9J82GLL', { 'anonymize_ip': true});
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#lecture" id="toc-lecture" class="nav-link active" data-scroll-target="#lecture">📖 Lecture</a></li>
+  <li><a href="#more-about-dplyr-and-ggplot" id="toc-more-about-dplyr-and-ggplot" class="nav-link active" data-scroll-target="#more-about-dplyr-and-ggplot">📖 More about dplyr and ggplot</a></li>
+  <li><a href="#slides" id="toc-slides" class="nav-link" data-scroll-target="#slides">📰 Slides</a></li>
   <li><a href="#objectives" id="toc-objectives" class="nav-link" data-scroll-target="#objectives">🎯 Objectives</a></li>
   <li><a href="#reading" id="toc-reading" class="nav-link" data-scroll-target="#reading">📚 Reading</a></li>
-  <li><a href="#lab" id="toc-lab" class="nav-link" data-scroll-target="#lab">🔬 Lab</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../units/unit1.html">Units</a></li><li class="breadcrumb-item"><a href="../units/unit6.html">6) ggplot</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../units/unit1.html">Units</a></li><li class="breadcrumb-item"><a href="../units/unit6.html">6) Tidyverse part 2</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">6) ggplot</h1>
+<h1 class="title">6) Tidyverse part 2</h1>
 </div>
 
 
@@ -316,19 +319,13 @@ gtag('config', 'G-CES9J82GLL', { 'anonymize_ip': true});
 </header>
 
 
-<section id="lecture" class="level2">
-<h2 class="anchored" data-anchor-id="lecture">📖 Lecture</h2>
-<p>Simply put: a graphic involves mapping data to geometric objects and their visual attributes. This is the underlying framework behind the mechanics and core functions available in <code>"ggplot2"</code> for creating simple graphics:</p>
-<ul>
-<li>Begin your graphic specification with <code>ggplot()</code></li>
-<li>Indicate where the <code>data</code> comes from</li>
-<li>Establish which variables are going to be mapped into visual attributes: <code>aes()</code></li>
-<li>Decide what kind of geometric object(s) will be used to display data; e.g.&nbsp;<code>geom_point()</code></li>
-<li>Optional: do you need to use <strong>facets</strong>?</li>
-<li>Optional: do you need to explicitly use one or more statistical <strong>transformations</strong>?</li>
-<li>Optional: do you need to explicitly set a non-default system of <strong>coordinates</strong>?</li>
-<li>Optional: do you need to explicitly use a non-default <strong>theme of graphical elements</strong>?</li>
-</ul>
+<section id="more-about-dplyr-and-ggplot" class="level2">
+<h2 class="anchored" data-anchor-id="more-about-dplyr-and-ggplot">📖 More about dplyr and ggplot</h2>
+<p>Last week we discussed the basics of dplyr and ggplot2. This week we continue reviewing more concepts related to those packages. In addition, we introduce so-called pipelines and the use of the pipe operators <code>|&gt;</code> and <code>%&gt;%</code>.</p>
+</section>
+<section id="slides" class="level2">
+<h2 class="anchored" data-anchor-id="slides">📰 Slides</h2>
+<p>06a-more-dplyr.pdf</p>
 </section>
 <section id="objectives" class="level2">
 <h2 class="anchored" data-anchor-id="objectives">🎯 Objectives</h2>
@@ -342,13 +339,11 @@ gtag('config', 'G-CES9J82GLL', { 'anonymize_ip': true});
 <section id="reading" class="level2">
 <h2 class="anchored" data-anchor-id="reading">📚 Reading</h2>
 <ul>
-<li><p><a href="https://www.gastonsanchez.com/R-tidy-hurricanes/2-01-intro-ggplot.html" target="_blank">https://www.gastonsanchez.com/R-tidy-hurricanes/2-01-intro-ggplot.html</a></p></li>
+<li><p><a href="https://www.gastonsanchez.com/R-tidy-hurricanes/2-03-intro-pipes.html" target="_blank">https://www.gastonsanchez.com/R-tidy-hurricanes/2-03-intro-pipes.html</a></p></li>
+<li><p><a href="https://www.gastonsanchez.com/R-tidy-hurricanes/3-01-storms-year.html" target="_blank">https://www.gastonsanchez.com/R-tidy-hurricanes/3-01-storms-year.html</a></p></li>
 <li><p><a href="https://www.gastonsanchez.com/R-tidy-hurricanes/3-02-storms-1975.html" target="_blank">https://www.gastonsanchez.com/R-tidy-hurricanes/3-02-storms-1975.html</a></p></li>
+<li><p><a href="https://www.gastonsanchez.com/R-tidy-hurricanes/3-04-summary-1975.html" target="_blank">https://www.gastonsanchez.com/R-tidy-hurricanes/3-04-Summary-1975.html</a></p></li>
 </ul>
-</section>
-<section id="lab" class="level2">
-<h2 class="anchored" data-anchor-id="lab">🔬 Lab</h2>
-<p>You’ll learn how to create basic graphics with ggplot2 functions.</p>
 
 
 </section>

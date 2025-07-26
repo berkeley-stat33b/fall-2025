@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>11) Imports &amp; Exports II</title>
+<title>11) Functions</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -92,7 +92,7 @@ gtag('config', 'G-CES9J82GLL', { 'anonymize_ip': true});
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../units/unit1.html">Units</a></li><li class="breadcrumb-item"><a href="../units/unit11.html">11) Imports &amp; Exports II</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../units/unit1.html">Units</a></li><li class="breadcrumb-item"><a href="../units/unit11.html">11) Functions</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -159,7 +159,7 @@ gtag('config', 'G-CES9J82GLL', { 'anonymize_ip': true});
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../units/unit2.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">2) R Vectors</span></a>
+ <span class="menu-text">2) Vectors and Factors</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -177,55 +177,58 @@ gtag('config', 'G-CES9J82GLL', { 'anonymize_ip': true});
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../units/unit5.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">5) dplyr</span></a>
+ <span class="menu-text">5) Tidyverse part 1</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../units/unit6.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">6) ggplot</span></a>
+ <span class="menu-text">6) Tidyverse part 2</span></a>
   </div>
 </li>
           <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../units/unit7.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">7) Conditionals</span></a>
-  </div>
-</li>
+ <span class="menu-text">units/unit7.qmd</span>
+  </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../units/unit8.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">8) Iterations</span></a>
+ <span class="menu-text">8) Midterm</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../units/unit9.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">9) Functions</span></a>
+ <span class="menu-text">9) Conditionals</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../units/unit10.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">10) Imports &amp; Exports I</span></a>
+ <span class="menu-text">10) Iterations</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../units/unit11.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">11) Imports &amp; Exports II</span></a>
+ <span class="menu-text">11) Functions</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../units/unit12.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">12) Performance</span></a>
+ <span class="menu-text">12) Bindings and Environments</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../units/unit13.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">13) Scoping</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../units/unit14.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">14) Performance</span></a>
   </div>
 </li>
       </ul>
@@ -288,18 +291,18 @@ gtag('config', 'G-CES9J82GLL', { 'anonymize_ip': true});
    
   <ul>
   <li><a href="#lecture" id="toc-lecture" class="nav-link active" data-scroll-target="#lecture">📖 Lecture</a></li>
+  <li><a href="#slides" id="toc-slides" class="nav-link" data-scroll-target="#slides">📰&nbsp;Slides</a></li>
   <li><a href="#objectives" id="toc-objectives" class="nav-link" data-scroll-target="#objectives">🎯 Objectives</a></li>
   <li><a href="#reading" id="toc-reading" class="nav-link" data-scroll-target="#reading">📚 Reading</a></li>
-  <li><a href="#lab" id="toc-lab" class="nav-link" data-scroll-target="#lab">🔬 Lab</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../units/unit1.html">Units</a></li><li class="breadcrumb-item"><a href="../units/unit11.html">11) Imports &amp; Exports II</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../units/unit1.html">Units</a></li><li class="breadcrumb-item"><a href="../units/unit11.html">11) Functions</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">11) Imports &amp; Exports II</h1>
+<h1 class="title">11) Functions</h1>
 </div>
 
 
@@ -318,31 +321,29 @@ gtag('config', 'G-CES9J82GLL', { 'anonymize_ip': true});
 
 <section id="lecture" class="level2">
 <h2 class="anchored" data-anchor-id="lecture">📖 Lecture</h2>
-<p>This week, we continue describing functions that have to do with so-called input(s)-output(s), or simply put, with importing and exporting operations. For example:</p>
-<ul>
-<li>how to export a data table</li>
-<li>how to export a graphic to an image file</li>
-<li>how to export function outputs to external files</li>
-</ul>
+<p>This week we review the syntax used by R for writing functions.</p>
+</section>
+<section id="slides" class="level2">
+<h2 class="anchored" data-anchor-id="slides">📰&nbsp;Slides</h2>
+<p>11-functions.pdf</p>
 </section>
 <section id="objectives" class="level2">
 <h2 class="anchored" data-anchor-id="objectives">🎯 Objectives</h2>
 <p>At the end of this week you will be able to:</p>
 <ul>
-<li>Use the <code>sink()</code> function to export output to external files</li>
-<li>Provide an example for how to export an image with <code>png()</code> or <code>jpeg()</code> or <code>pdf()</code></li>
-<li>Describe the mechanics that R uses for reading-in data</li>
+<li>Describe the main parts of a function in R (i.e.&nbsp;anatomy of a function)</li>
+<li>Give a simple example for creating a function</li>
+<li>Explain the difference between positional arguments, and named arguments</li>
+<li>Provide an example for creating a “binary operator” (or infix) function</li>
 </ul>
 </section>
 <section id="reading" class="level2">
 <h2 class="anchored" data-anchor-id="reading">📚 Reading</h2>
 <ul>
-<li><a href="https://www.gastonsanchez.com/R-coding-basics/6-03-exporting-data.html" target="_blank">https://www.gastonsanchez.com/R-coding-basics/6-03-exporting-data.html</a></li>
+<li><p><a href="https://www.gastonsanchez.com/R-coding-basics/5-01-functions-intro.html" target="_blank">https://www.gastonsanchez.com/R-coding-basics/5-01-functions-intro.html</a></p></li>
+<li><p><a href="https://www.gastonsanchez.com/R-coding-basics/5-06-more-functions.html" target="_blank">https://www.gastonsanchez.com/R-coding-basics/5-06-more-functions.html</a></p></li>
+<li><p><a href="https://adv-r.hadley.nz/functions.html" target="_blank">https://adv-r.hadley.nz/functions.html</a></p></li>
 </ul>
-</section>
-<section id="lab" class="level2">
-<h2 class="anchored" data-anchor-id="lab">🔬 Lab</h2>
-<p>Work with some basic examples to import and export resources.</p>
 
 
 </section>

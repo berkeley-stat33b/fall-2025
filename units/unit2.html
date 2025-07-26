@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>2) R Vectors</title>
+<title>2) Vectors and Factors</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -92,7 +92,7 @@ gtag('config', 'G-CES9J82GLL', { 'anonymize_ip': true});
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../units/unit1.html">Units</a></li><li class="breadcrumb-item"><a href="../units/unit2.html">2) R Vectors</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../units/unit1.html">Units</a></li><li class="breadcrumb-item"><a href="../units/unit2.html">2) Vectors and Factors</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -159,7 +159,7 @@ gtag('config', 'G-CES9J82GLL', { 'anonymize_ip': true});
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../units/unit2.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">2) R Vectors</span></a>
+ <span class="menu-text">2) Vectors and Factors</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -177,55 +177,58 @@ gtag('config', 'G-CES9J82GLL', { 'anonymize_ip': true});
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../units/unit5.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">5) dplyr</span></a>
+ <span class="menu-text">5) Tidyverse part 1</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../units/unit6.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">6) ggplot</span></a>
+ <span class="menu-text">6) Tidyverse part 2</span></a>
   </div>
 </li>
           <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../units/unit7.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">7) Conditionals</span></a>
-  </div>
-</li>
+ <span class="menu-text">units/unit7.qmd</span>
+  </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../units/unit8.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">8) Iterations</span></a>
+ <span class="menu-text">8) Midterm</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../units/unit9.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">9) Functions</span></a>
+ <span class="menu-text">9) Conditionals</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../units/unit10.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">10) Imports &amp; Exports I</span></a>
+ <span class="menu-text">10) Iterations</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../units/unit11.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">11) Imports &amp; Exports II</span></a>
+ <span class="menu-text">11) Functions</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../units/unit12.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">12) Performance</span></a>
+ <span class="menu-text">12) Bindings and Environments</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../units/unit13.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">13) Scoping</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../units/unit14.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">14) Performance</span></a>
   </div>
 </li>
       </ul>
@@ -287,19 +290,19 @@ gtag('config', 'G-CES9J82GLL', { 'anonymize_ip': true});
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#lecture" id="toc-lecture" class="nav-link active" data-scroll-target="#lecture">📖 Lecture</a></li>
+  <li><a href="#vectors-and-factors" id="toc-vectors-and-factors" class="nav-link active" data-scroll-target="#vectors-and-factors">📖 Vectors and Factors</a></li>
+  <li><a href="#slides" id="toc-slides" class="nav-link" data-scroll-target="#slides">📰&nbsp;Slides</a></li>
   <li><a href="#objectives" id="toc-objectives" class="nav-link" data-scroll-target="#objectives">🎯 Objectives</a></li>
   <li><a href="#reading" id="toc-reading" class="nav-link" data-scroll-target="#reading">📚 Reading</a></li>
-  <li><a href="#lab" id="toc-lab" class="nav-link" data-scroll-target="#lab">🔬 Lab</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../units/unit1.html">Units</a></li><li class="breadcrumb-item"><a href="../units/unit2.html">2) R Vectors</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../units/unit1.html">Units</a></li><li class="breadcrumb-item"><a href="../units/unit2.html">2) Vectors and Factors</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">2) R Vectors</h1>
+<h1 class="title">2) Vectors and Factors</h1>
 </div>
 
 
@@ -316,11 +319,11 @@ gtag('config', 'G-CES9J82GLL', { 'anonymize_ip': true});
 </header>
 
 
-<section id="lecture" class="level2">
-<h2 class="anchored" data-anchor-id="lecture">📖 Lecture</h2>
-<p>In this unit we describe <strong>data types</strong> and their implementation as <strong>vectors</strong> (the most fundamental data object in R). We’ll focus on important concepts like:</p>
+<section id="vectors-and-factors" class="level2">
+<h2 class="anchored" data-anchor-id="vectors-and-factors">📖 Vectors and Factors</h2>
+<p>In this module we describe data types and their implementation in R objects like <strong>vectors</strong> and their cousins <strong>factors</strong>. We’ll focus on important concepts like:</p>
 <ul>
-<li><p>main <strong>data types</strong> (“atomic types” in R): logical, integer, real (or double), and character.</p></li>
+<li><p>vectors and their data types (e.g.&nbsp;logical, integer, double or real, and character).</p></li>
 <li><p><strong>creation of vectors</strong>: various ways and functions to create vectors.</p></li>
 <li><p><strong>implicit coercion</strong> rules: what R does when you combine values of different data types.</p></li>
 <li><p><strong>vectorization</strong>: when R applies calculations or operations to all the elements of a vector (element-wise).</p></li>
@@ -328,11 +331,17 @@ gtag('config', 'G-CES9J82GLL', { 'anonymize_ip': true});
 <li><p><strong>subsetting</strong> (aka indexing, subscripting, bracket notation)</p></li>
 </ul>
 </section>
+<section id="slides" class="level2">
+<h2 class="anchored" data-anchor-id="slides">📰&nbsp;Slides</h2>
+<p>02a-vectors-intro.pdf</p>
+<p>02b-vectors-subsetting.pdf</p>
+<p>02c-factors.pdf</p>
+</section>
 <section id="objectives" class="level2">
 <h2 class="anchored" data-anchor-id="objectives">🎯 Objectives</h2>
 <p>At the end of this week you will be able to:</p>
 <ul>
-<li>Describe the four common data types in R, and give examples for them</li>
+<li>List the four common data types in R, and give examples for them</li>
 <li>Explain why R vectors are said to be atomic objects</li>
 <li>Describe and give an example of the implicit coercion rules</li>
 <li>Describe and give an example of vectorized code</li>
@@ -345,12 +354,8 @@ gtag('config', 'G-CES9J82GLL', { 'anonymize_ip': true});
 <li><p><a href="https://www.gastonsanchez.com/R-coding-basics/1-01-vectors-intro.html" target="_blank">https://www.gastonsanchez.com/R-coding-basics/1-01-vectors-intro.html</a></p></li>
 <li><p><a href="https://www.gastonsanchez.com/R-coding-basics/1-02-vectors-properties.html" target="_blank">https://www.gastonsanchez.com/R-coding-basics/1-02-vectors-properties.html</a></p></li>
 <li><p><a href="https://www.gastonsanchez.com/R-coding-basics/1-03-vectors-creation.html" target="_blank">https://www.gastonsanchez.com/R-coding-basics/1-03-vectors-creation.html</a></p></li>
-<li><p>a href=“https://www.gastonsanchez.com/R-coding-basics/1-04-vectors-concepts.html” target=“_blank”&gt;https://www.gastonsanchez.com/R-coding-basics/1-04-vectors-concepts.html</p></li>
+<li><p><a href="https://www.gastonsanchez.com/R-coding-basics/1-04-vectors-concepts.html" target="_blank">https://www.gastonsanchez.com/R-coding-basics/1-04-vectors-concepts.html</a></p></li>
 </ul>
-</section>
-<section id="lab" class="level2">
-<h2 class="anchored" data-anchor-id="lab">🔬 Lab</h2>
-<p>You’ll practice creating and manipulating vectors in R, and learning about the concepts described above.</p>
 
 
 </section>

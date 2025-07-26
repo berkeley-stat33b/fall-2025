@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>12) Performance</title>
+<title>12) Bindings and Environments</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -92,7 +92,7 @@ gtag('config', 'G-CES9J82GLL', { 'anonymize_ip': true});
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../units/unit1.html">Units</a></li><li class="breadcrumb-item"><a href="../units/unit12.html">12) Performance</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../units/unit1.html">Units</a></li><li class="breadcrumb-item"><a href="../units/unit12.html">12) Bindings and Environments</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -159,7 +159,7 @@ gtag('config', 'G-CES9J82GLL', { 'anonymize_ip': true});
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../units/unit2.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">2) R Vectors</span></a>
+ <span class="menu-text">2) Vectors and Factors</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -177,55 +177,58 @@ gtag('config', 'G-CES9J82GLL', { 'anonymize_ip': true});
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../units/unit5.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">5) dplyr</span></a>
+ <span class="menu-text">5) Tidyverse part 1</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../units/unit6.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">6) ggplot</span></a>
+ <span class="menu-text">6) Tidyverse part 2</span></a>
   </div>
 </li>
           <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../units/unit7.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">7) Conditionals</span></a>
-  </div>
-</li>
+ <span class="menu-text">units/unit7.qmd</span>
+  </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../units/unit8.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">8) Iterations</span></a>
+ <span class="menu-text">8) Midterm</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../units/unit9.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">9) Functions</span></a>
+ <span class="menu-text">9) Conditionals</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../units/unit10.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">10) Imports &amp; Exports I</span></a>
+ <span class="menu-text">10) Iterations</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../units/unit11.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">11) Imports &amp; Exports II</span></a>
+ <span class="menu-text">11) Functions</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../units/unit12.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">12) Performance</span></a>
+ <span class="menu-text">12) Bindings and Environments</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../units/unit13.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">13) Scoping</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../units/unit14.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">14) Performance</span></a>
   </div>
 </li>
       </ul>
@@ -287,19 +290,19 @@ gtag('config', 'G-CES9J82GLL', { 'anonymize_ip': true});
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#lecture" id="toc-lecture" class="nav-link active" data-scroll-target="#lecture">📖 Lecture</a></li>
+  <li><a href="#names-values-and-environments" id="toc-names-values-and-environments" class="nav-link active" data-scroll-target="#names-values-and-environments">📖 Names, Values and Environments</a></li>
+  <li><a href="#slides" id="toc-slides" class="nav-link" data-scroll-target="#slides">📰 Slides</a></li>
   <li><a href="#objectives" id="toc-objectives" class="nav-link" data-scroll-target="#objectives">🎯 Objectives</a></li>
   <li><a href="#reading" id="toc-reading" class="nav-link" data-scroll-target="#reading">📚 Reading</a></li>
-  <li><a href="#lab" id="toc-lab" class="nav-link" data-scroll-target="#lab">🔬 Lab</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../units/unit1.html">Units</a></li><li class="breadcrumb-item"><a href="../units/unit12.html">12) Performance</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../units/unit1.html">Units</a></li><li class="breadcrumb-item"><a href="../units/unit12.html">12) Bindings and Environments</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">12) Performance</h1>
+<h1 class="title">12) Bindings and Environments</h1>
 </div>
 
 
@@ -316,29 +319,30 @@ gtag('config', 'G-CES9J82GLL', { 'anonymize_ip': true});
 </header>
 
 
-<section id="lecture" class="level2">
-<h2 class="anchored" data-anchor-id="lecture">📖 Lecture</h2>
-<p>This week we review more underlying principles that have to do with performance in R.</p>
+<section id="names-values-and-environments" class="level2">
+<h2 class="anchored" data-anchor-id="names-values-and-environments">📖 Names, Values and Environments</h2>
+<p>This week we go down a technical rabbit hole to learn three important concepts. First, we discuss how R differentiates between <strong>names and values</strong>. Second, we talk about the so-called <strong>copy-on-modify</strong> policy which is what R uses to decide when a copy of an object needs to be made. And third, we briefly review <strong>environments</strong> which are basically the data structure that powers scoping. Understanding all these notions will be helpful in our last week when we get to talk about performance and memory usage of R code.</p>
+</section>
+<section id="slides" class="level2">
+<h2 class="anchored" data-anchor-id="slides">📰 Slides</h2>
+<p>12-names-values-environments.pdf</p>
 </section>
 <section id="objectives" class="level2">
 <h2 class="anchored" data-anchor-id="objectives">🎯 Objectives</h2>
 <p>At the end of this week you will be able to:</p>
 <ul>
-<li>Provide an example of copy-on-modify policy.</li>
-<li>Apply the function <code>system.time()</code> to time commands in R.</li>
-<li>Apply yhe function <code>Rprof()</code> and <code>summaryRprof()</code> to profile code in R.</li>
+<li>Describe the distinction between names and values</li>
+<li>Explain how &lt;- creates a binding, or reference, between a name and a value</li>
+<li>Provide an example of copy-on-modify policy</li>
+<li>Describe the basic properties of an environment and their special purposes</li>
 </ul>
 </section>
 <section id="reading" class="level2">
 <h2 class="anchored" data-anchor-id="reading">📚 Reading</h2>
 <ul>
-<li><p><a href="http://adv-r.had.co.nz/Performance.html" target="_blank">http://adv-r.had.co.nz/Performance.html</a></p></li>
-<li><p><a href="https://adv-r.hadley.nz/perf-measure.html" target="_blank">https://adv-r.hadley.nz/perf-measure.html</a></p></li>
+<li><p><a href="https://adv-r.hadley.nz/names-values.html" target="_blank">https://adv-r.hadley.nz/names-values.html</a></p></li>
+<li><p><a href="https://adv-r.hadley.nz/environments.html" target="_blank">https://adv-r.hadley.nz/environments.html</a></p></li>
 </ul>
-</section>
-<section id="lab" class="level2">
-<h2 class="anchored" data-anchor-id="lab">🔬 Lab</h2>
-<p>Practice measuring performance.</p>
 
 
 </section>
