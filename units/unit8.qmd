@@ -1,36 +1,17 @@
 ---
-title: "8) Iterations"
+title: "8) Midterm"
 ---
 
 
-## 📖 Lecture
+## 📝 Midterm
 
-This week we introduce the syntax used by R to handle iteration constructs such as for loops and while loops.
+Midterm test on Wed Oct-15, 2pm-3pm in Latimer 120
 
+ 
 
+Lab section will take place as usual (Fri, worksheet 8)
 
-## 🎯 Objectives
+ 
 
-Get familiar with the syntax used in R for writing
-
-- __for__ loops
-- __while__ loops
-- the __next__ statement to skip iterations
-- the __break__ statement to stop loops from iterating
-- and the family of `apply()` functions
-  
-
-
-## 📚 Reading
-
-- <a href="https://www.gastonsanchez.com/R-coding-basics/5-04-for-loop.html" target="_blank">https://www.gastonsanchez.com/R-coding-basics/5-04-for-loop.html</a>
-
-- <a href="https://www.gastonsanchez.com/R-coding-basics/5-05-while-loop.html" target="_blank">https://www.gastonsanchez.com/R-coding-basics/5-05-while-loop.html</a>
-
-
-
-## 🔬 Lab
-
-Work with some basic examples using loops in R.
-
+There is no HW due this week; HW7 due date extended till Oct-21 (10:50 PM)
 

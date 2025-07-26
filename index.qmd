@@ -15,9 +15,7 @@ listing:
 
 ::: {.callout-note title="Announcements 📣"}
 
-Final Exam on May-13th (7-10pm)
-
-See announcements in bCourses
+Our first meeting will be on Wed Aug-27th
 :::
 
 

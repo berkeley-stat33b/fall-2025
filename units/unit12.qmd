@@ -1,11 +1,23 @@
 ---
-title: "12) Performance"
+title: "12) Bindings and Environments"
 ---
 
 
-## 📖 Lecture
+## 📖 Names, Values and Environments
 
-This week we review more underlying principles that have to do with performance in R.
+This week we go down a technical rabbit hole to learn three important concepts. 
+First, we discuss how R differentiates between __names and values__. Second, 
+we talk about the so-called __copy-on-modify__ policy which is what R uses 
+to decide when a copy of an object needs to be made. And third, we briefly 
+review __environments__ which are basically the data structure that powers scoping. 
+Understanding all these notions will be helpful in our last week when we get to 
+talk about performance and memory usage of R code. 
+
+
+
+## 📰 Slides
+
+12-names-values-environments.pdf
 
 
 
@@ -13,22 +25,17 @@ This week we review more underlying principles that have to do with performance 
 
 At the end of this week you will be able to:
 
-- Provide an example of copy-on-modify policy.
-- Apply the function `system.time()` to time commands in R.
-- Apply yhe function `Rprof()` and `summaryRprof()` to profile code in R.  
+- Describe the distinction between names and values 
+- Explain how <- creates a binding, or reference, between a name and a value
+- Provide an example of copy-on-modify policy
+- Describe the basic properties of an environment and their special purposes
 
 
 
 ## 📚 Reading
 
-- <a href="http://adv-r.had.co.nz/Performance.html" target="_blank">http://adv-r.had.co.nz/Performance.html</a>
+- <a href="https://adv-r.hadley.nz/names-values.html" target="_blank">https://adv-r.hadley.nz/names-values.html</a>
 
-- <a href="https://adv-r.hadley.nz/perf-measure.html" target="_blank">https://adv-r.hadley.nz/perf-measure.html</a>
-
-
-
-## 🔬 Lab
-
-Practice measuring performance.
+- <a href="https://adv-r.hadley.nz/environments.html" target="_blank">https://adv-r.hadley.nz/environments.html</a>
 
 

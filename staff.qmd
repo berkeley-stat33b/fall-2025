@@ -17,15 +17,19 @@ You can attend OH of any staff member.
 **Instructor:** <a href='https://www.gastonsanchez.com' target='_blank'>Gaston Sanchez</a><br>
 `gastonsanchez`<br>
 Office hours: <br>
-- Th 2-3pm, Evans 309<br>
+- TBD, Evans 309<br>
+
+**Tutor:** Clara Reckhorn<br>
+`clara_reckhorn`<br>
+Office hours: <br>
+- TBD, Evans TBD<br>
 :::
 
 ::: {.g-col-6}
 **GSI**: <a href="https://statistics.berkeley.edu/people/brian-fernando" target="_blank">Brian Fernando</a><br>
 `bmfernan`<br>
 Office hours:<br>
-- Th 3-5pm, Evans 426<br>
-- Fr 2-4pm, Evans 426
+- TBD, Evans TBD
 :::
 
 ::::

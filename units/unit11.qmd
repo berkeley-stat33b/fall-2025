@@ -1,15 +1,17 @@
 ---
-title: "11) Imports & Exports II"
+title: "11) Functions"
 ---
 
 
 ## 📖 Lecture
 
-This week, we continue describing functions that have to do with so-called input(s)-output(s), or simply put, with importing and exporting operations. For example:
+This week we review the syntax used by R for writing functions.
 
-- how to export a data table
-- how to export a graphic to an image file
-- how to export function outputs to external files
+
+
+## 📰 Slides
+
+11-functions.pdf
 
 
 
@@ -17,21 +19,19 @@ This week, we continue describing functions that have to do with so-called input
 
 At the end of this week you will be able to:
 
-- Use the `sink()` function to export output to external files
-- Provide an example for how to export an image with `png()` or `jpeg()` or `pdf()`
-- Describe the mechanics that R uses for reading-in data
-
+- Describe the main parts of a function in R (i.e. anatomy of a function)
+- Give a simple example for creating a function
+- Explain the difference between positional arguments, and named arguments
+- Provide an example for creating a "binary operator" (or infix) function
+  
 
 
 ## 📚 Reading
 
-- <a href="https://www.gastonsanchez.com/R-coding-basics/6-03-exporting-data.html" target="_blank">https://www.gastonsanchez.com/R-coding-basics/6-03-exporting-data.html</a>
+- <a href="https://www.gastonsanchez.com/R-coding-basics/5-01-functions-intro.html" target="_blank">https://www.gastonsanchez.com/R-coding-basics/5-01-functions-intro.html</a>
 
+- <a href="https://www.gastonsanchez.com/R-coding-basics/5-06-more-functions.html" target="_blank">https://www.gastonsanchez.com/R-coding-basics/5-06-more-functions.html</a>
 
-
-
-## 🔬 Lab
-
-Work with some basic examples to import and export resources.
+- <a href="https://adv-r.hadley.nz/functions.html" target="_blank">https://adv-r.hadley.nz/functions.html</a>
 
 

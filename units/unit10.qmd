@@ -1,15 +1,18 @@
 ---
-title: "10) Imports & Exports I"
+title: "10) Iterations"
 ---
 
 
-## 📖 Lecture
+## 📖 Iterations and Loops
 
-This week, we'll talk about concepts and functions that have to do with so-called input(s)-output(s), or simply put, with importing and exporting operations. For example:
+This week we introduce the syntax used by R to handle iteration constructs such as 
+for loops and while loops, among other idioms.
 
-- how to import a data table
-- how to import data values
-- how to import text content
+
+
+## 📰 Slides
+
+10-iterations.pdf
 
 
 
@@ -17,19 +20,24 @@ This week, we'll talk about concepts and functions that have to do with so-calle
 
 At the end of this week you will be able to:
 
-- Import tables with `read.table()` and derived functions: `read.csv()`, `read.delim()`, etc
-- Use `scan()` to import data values
-- Import text with `readLines()`
+- Describe the anatomy of a `for` loop in R
+- Describe the anatomy of a `while` loop in R
+- Describe the anatomy of a `repeat` loop in R
+- Get familiar with the `next` statement to skip iterations
+- Get familiar with the `break` statement to stop loops from iterating
+- Provide examples for `apply()`, `lapply()`, `sapply()` functions
+- Provide an example of the "dplyr" function `across()`
+
 
 
 ## 📚 Reading
 
-- <a href="https://www.gastonsanchez.com/R-coding-basics/6-02-import-tables.html" target="_blank">https://www.gastonsanchez.com/R-coding-basics/6-02-import-tables.html</a>
+- <a href="https://www.gastonsanchez.com/R-coding-basics/5-04-for-loop.html" target="_blank">https://www.gastonsanchez.com/R-coding-basics/5-04-for-loop.html</a>
 
+- <a href="https://www.gastonsanchez.com/R-coding-basics/5-05-while-loop.html" target="_blank">https://www.gastonsanchez.com/R-coding-basics/5-05-while-loop.html</a>
 
+- <a href="https://rstudio-education.github.io/hopr/loops.html" target="_blank">https://rstudio-education.github.io/hopr/loops.html</a>
 
-## 🔬 Lab
-
-Work with some basic examples to import resources.
+- <a href="https://adv-r.hadley.nz/control-flow.html#loops" target="_blank">https://adv-r.hadley.nz/control-flow.html#loops</a>
 
 

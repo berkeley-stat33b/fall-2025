@@ -1,13 +1,25 @@
 ---
-title: "5) dplyr"
+title: "5) Tidyverse part 1"
 ---
 
 
-## 📖 Lecture
+## 📖 Intro to dplyr and ggplot2
 
-In addition to learning about the "classic" way to work with data frames, we will briefly touch on an "alternative" approach for working with tables provided by the ecosystem of packages known as the `"tidyverse"`: <https://www.tidyverse.org>
+In addition to learning about the "classic" way to work with data frames, we will 
+briefly touch on an "alternative" approach for working with tables provided by 
+the ecosystem of packages known as the `"tidyverse"`: <https://www.tidyverse.org>
 
-This week we start with the tidyverse package `"dplyr"`. Simply put, `"dplyr"` comes with functions that allow you to manipulate data-tables (e.g. data-frames, and other 2-dimensional objects) using a modern and syntactic way.
+This week we start with the tidyverse package `"dplyr"`. Simply put, `"dplyr"` 
+comes with functions that allow you to manipulate data-tables (e.g. data-frames, 
+and other 2-dimensional objects) using a modern and syntactic way.
+
+
+
+## 📰 Slides
+
+05a-intro-to-dplyr.pdf
+
+05b-intro-to-ggplot.pdf
 
 
 
@@ -26,12 +38,9 @@ We'll go over the set of functions available in `"dplyr"` to perform common mani
 
 ## 📚 Reading
 
+- <a href="https://www.gastonsanchez.com/R-tidy-hurricanes/2-01-intro-ggplot.html" target="_blank">https://www.gastonsanchez.com/R-tidy-hurricanes/2-01-intro-ggplot.html</a>
 - <a href="https://www.gastonsanchez.com/R-tidy-hurricanes/2-02-intro-dplyr.html" target="_blank">https://www.gastonsanchez.com/R-tidy-hurricanes/2-02-intro-dplyr.html</a>
-
-
-
-## 🔬 Lab
-
-You will get introduced to manipulation of data-tables using a modern and syntactic way following the data plying framework provided by the R package dplyr.
+- In case you are curious, here's an interesting opinion by UC-Davis Prof. Norman Matloff about the tidyverse: 
+<a href="https://github.com/matloff/TidyverseSkeptic" target="_blank">https://github.com/matloff/TidyverseSkeptic</a>
 
 

@@ -36,6 +36,7 @@ website:
           - units/unit11.qmd
           - units/unit12.qmd
           - units/unit13.qmd
+          - units/unit14.qmd
       - section: "Other"
         contents:
           - href: staff.qmd

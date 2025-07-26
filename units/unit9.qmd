@@ -1,11 +1,18 @@
 ---
-title: "9) Functions"
+title: "9) Conditionals"
 ---
 
 
-## 📖 Lecture
+## 📖 Conditional Statements
 
-This week we review the syntax used by R for writing functions.
+This week we introduce the notion of R expressions, and we provide the syntax 
+used by R to handle if-else statements and related conditionals constructs.
+
+
+
+## 📰 Slides
+
+09-conditionals.pdf
 
 
 
@@ -13,22 +20,23 @@ This week we review the syntax used by R for writing functions.
 
 At the end of this week you will be able to:
 
-- Describe the main parts of a function in R (i.e. anatomy of a function)
-- Give a simple example for creating a function
-- Explain the difference between positional arguments, and named arguments
-- Provide an example for creating a "binary operator" (or infix) function
-  
+- Describe what curly braces `{...}` are used for in R.
+- Write if-else statements to handle simple or multiple conditions
+- Describe the purpose of the _vectorized_ function `ifelse()`
+- Describe and give an example of `switch()`
+- Describe and give an example of the __congruent vectors strategy__ (which is connected with the __lookup-vector trick__)
+- Describe and give an example of the "dplyr" function `case_when()`
+
 
 
 ## 📚 Reading
 
-- <a href="https://www.gastonsanchez.com/R-coding-basics/5-01-functions-intro.html" target="_blank">https://www.gastonsanchez.com/R-coding-basics/5-01-functions-intro.html</a>
+- <a href="https://www.gastonsanchez.com/R-coding-basics/5-02-expressions.html" target="_blank">https://www.gastonsanchez.com/R-coding-basics/5-02-expressions.html</a>
 
+- <a href="https://www.gastonsanchez.com/R-coding-basics/5-03-conditionals.html" target="_blank">https://www.gastonsanchez.com/R-coding-basics/5-03-conditionals.html</a>
 
+- <a href="https://adv-r.hadley.nz/control-flow.html#choices" target="_blank">https://adv-r.hadley.nz/control-flow.html#choices</a>
 
-
-## 🔬 Lab
-
-Work writing some functions.  
+- <a href="https://rstudio-education.github.io/hopr/programs.html#if-statements" target="_blank">https://rstudio-education.github.io/hopr/programs.html#if-statements</a>
 
 

@@ -3,7 +3,7 @@ title: "3) Matrices and Lists"
 ---
 
 
-## 📖 Lecture
+## 📖 Matrices and Lists
 
 We continue describing more data objects in R such as
 
@@ -12,26 +12,33 @@ We continue describing more data objects in R such as
 
 
 
+## 📰 Slides
+
+03a-matrices.pdf
+
+03b-lists.pdf
+
+
+
 ## 🎯 Objectives
 
 At the end of this week you will be able to:
 
-- Create matrices with the function `matrix()`
+- Create matrices with the function `matrix()`, `rbind()`, and `cbind()`
 - Explain how R internally stores matrices
+- Use brackets `[]` to subset matrices
 - Describe why matrices are atomic objects
+- Creation of functions with `list()`
 - Describe in what sense a list is considered to be a non-atomic vector
  
 
 
 ## 📚 Reading
 
-- <a href="https://www.gastonsanchez.com/R-coding-basics/3-01-matrices-intro.html" target="_blank">https://www.gastonsanchez.com/R-coding-basics/3-01-matrices-intro.html</a>
-
-- <a href="https://www.gastonsanchez.com/R-coding-basics/4-01-lists.html" target="_blank">https://www.gastonsanchez.com/R-coding-basics/4-01-lists.html</a>
-
-
-
-## 🔬 Lab
-
-More practice with data objects.
+- <https://www.gastonsanchez.com/R-coding-basics/3-01-matrices-intro.html>
+- <https://www.gastonsanchez.com/R-coding-basics/3-02-matrices-operations.html>
+- <https://www.gastonsanchez.com/R-coding-basics/4-01-lists.html>
+- <https://adv-r.hadley.nz/vectors-chap.html#lists>
+- <https://rstudio-education.github.io/hopr/r-objects.html#matrices>
+- <https://rstudio-education.github.io/hopr/r-objects.html#lists>
 
