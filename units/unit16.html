@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>6) Tidyverse part 2</title>
+<title>12) Names, Values and Environments</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -83,217 +83,19 @@ gtag('config', 'G-CES9J82GLL', { 'anonymize_ip': true});
 <link rel="stylesheet" href="../assets/styles.css">
 </head>
 
-<body class="nav-sidebar docked quarto-light">
+<body class="quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav">
-    <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-        <i class="bi bi-layout-text-sidebar-reverse"></i>
-      </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../units/unit1.html">Units</a></li><li class="breadcrumb-item"><a href="../units/unit6.html">6) Tidyverse part 2</a></li></ol></nav>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-        </a>
-      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
-        <i class="bi bi-search"></i>
-      </button>
-    </div>
-  </nav>
-</header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
-    <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
-      <a href="../index.html" class="sidebar-logo-link">
-      <img src="../assets/stat_bear.png" alt="UC Berkeley Statistics logo" class="sidebar-logo py-0 d-lg-inline d-none">
-      </a>
-    <div class="sidebar-title mb-0 py-0">
-      <a href="../">STAT 33B <br><small>Fall 2025</small></a> 
-        <div class="sidebar-tools-main">
-    <a href="https://github.com/berkeley-stat33b/fall-2025/" title="" class="quarto-navigation-tool px-1" aria-label="GitHub"><i class="bi bi-github"></i></a>
-</div>
-    </div>
-      </div>
-        <div class="mt-2 flex-shrink-0 align-items-center">
-        <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Search"></div>
-        </div>
-        </div>
-    <div class="sidebar-menu-container"> 
-    <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Home / Schedule</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../syllabus.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Syllabus</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../about.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">About</span></a>
-  </div>
-</li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
- <span class="menu-text">Units</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../units/unit1.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">1) Intro</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../units/unit2.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">2) Vectors and Factors</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../units/unit3.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">3) Matrices and Lists</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../units/unit4.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">4) Data Frames</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../units/unit5.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">5) Tidyverse part 1</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../units/unit6.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">6) Tidyverse part 2</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../units/unit7.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">7) Tidyverse part 3</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../units/unit8.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">8) Midterm</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../units/unit9.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">9) Conditionals</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../units/unit10.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">10) Iterations</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../units/unit11.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">11) Functions</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../units/unit12.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">12) Bindings and Environments</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../units/unit13.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">13) Scoping</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../units/unit14.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">14) Performance</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
- <span class="menu-text">Other</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../staff.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Staff</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../cheatsheets.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Cheatsheets</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../email.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Email</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../faqs.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">FAQs</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../ed-netiquette.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Ed Netiquette</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../license.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">License</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-    </ul>
-    </div>
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#more-about-dplyr-and-ggplot" id="toc-more-about-dplyr-and-ggplot" class="nav-link active" data-scroll-target="#more-about-dplyr-and-ggplot">📖 More about dplyr and ggplot</a></li>
+  <li><a href="#names-values-and-environments" id="toc-names-values-and-environments" class="nav-link active" data-scroll-target="#names-values-and-environments">📖 Names, Values and Environments</a></li>
   <li><a href="#slides" id="toc-slides" class="nav-link" data-scroll-target="#slides">📰 Slides</a></li>
   <li><a href="#objectives" id="toc-objectives" class="nav-link" data-scroll-target="#objectives">🎯 Objectives</a></li>
   <li><a href="#reading" id="toc-reading" class="nav-link" data-scroll-target="#reading">📚 Reading</a></li>
@@ -303,9 +105,9 @@ gtag('config', 'G-CES9J82GLL', { 'anonymize_ip': true});
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../units/unit1.html">Units</a></li><li class="breadcrumb-item"><a href="../units/unit6.html">6) Tidyverse part 2</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">6) Tidyverse part 2</h1>
+<h1 class="title">12) Names, Values and Environments</h1>
 </div>
 
 
@@ -322,30 +124,29 @@ gtag('config', 'G-CES9J82GLL', { 'anonymize_ip': true});
 </header>
 
 
-<section id="more-about-dplyr-and-ggplot" class="level2">
-<h2 class="anchored" data-anchor-id="more-about-dplyr-and-ggplot">📖 More about dplyr and ggplot</h2>
-<p>Last week we discussed the basics of dplyr and ggplot2. This week we continue reviewing more concepts related to those packages. In addition, we introduce so-called pipelines and the use of the pipe operators <code>|&gt;</code> and <code>%&gt;%</code>.</p>
+<section id="names-values-and-environments" class="level2">
+<h2 class="anchored" data-anchor-id="names-values-and-environments">📖 Names, Values and Environments</h2>
+<p>This week we go down a technical rabbit hole to learn three important concepts. First, we discuss how R differentiates between <strong>names and values</strong>. Second, we talk about the so-called <strong>copy-on-modify</strong> policy which is what R uses to decide when a copy of an object needs to be made. And third, we briefly review <strong>environments</strong> which are basically the data structure that powers scoping. Understanding all these notions will be helpful in our last week when we get to talk about performance and memory usage of R code.</p>
 </section>
 <section id="slides" class="level2">
 <h2 class="anchored" data-anchor-id="slides">📰 Slides</h2>
-<p><a href="../slides/06a-more-dplyr.pdf">06a-more-dplyr.pdf</a></p>
+<p>12-names-values-environments.pdf</p>
 </section>
 <section id="objectives" class="level2">
 <h2 class="anchored" data-anchor-id="objectives">🎯 Objectives</h2>
 <p>At the end of this week you will be able to:</p>
 <ul>
-<li>Get a first contact with <code>"ggplot2"</code></li>
-<li>Describe the purpose of the aesthetic mapping function <code>aes()</code></li>
-<li>Describe the notion of “layers” and how to use them for making a graphic using <code>"ggplot2"</code></li>
+<li>Describe the distinction between names and values</li>
+<li>Explain how &lt;- creates a binding, or reference, between a name and a value</li>
+<li>Provide an example of copy-on-modify policy</li>
+<li>Describe the basic properties of an environment and their special purposes</li>
 </ul>
 </section>
 <section id="reading" class="level2">
 <h2 class="anchored" data-anchor-id="reading">📚 Reading</h2>
 <ul>
-<li><p><a href="https://www.gastonsanchez.com/R-tidy-hurricanes/2-03-intro-pipes.html" target="_blank">https://www.gastonsanchez.com/R-tidy-hurricanes/2-03-intro-pipes.html</a></p></li>
-<li><p><a href="https://www.gastonsanchez.com/R-tidy-hurricanes/3-01-storms-year.html" target="_blank">https://www.gastonsanchez.com/R-tidy-hurricanes/3-01-storms-year.html</a></p></li>
-<li><p><a href="https://www.gastonsanchez.com/R-tidy-hurricanes/3-02-storms-1975.html" target="_blank">https://www.gastonsanchez.com/R-tidy-hurricanes/3-02-storms-1975.html</a></p></li>
-<li><p><a href="https://www.gastonsanchez.com/R-tidy-hurricanes/3-04-summary-1975.html" target="_blank">https://www.gastonsanchez.com/R-tidy-hurricanes/3-04-Summary-1975.html</a></p></li>
+<li><p><a href="https://adv-r.hadley.nz/names-values.html" target="_blank">https://adv-r.hadley.nz/names-values.html</a></p></li>
+<li><p><a href="https://adv-r.hadley.nz/environments.html" target="_blank">https://adv-r.hadley.nz/environments.html</a></p></li>
 </ul>
 
 
