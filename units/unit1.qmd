@@ -13,9 +13,9 @@ topics in a nutshell, etc.
 
 ## 📰 Slides
 
-[01a-getting-started-with-R-and-Rstudio.pdf](slides/01a-getting-started-with-R-and-Rstudio.pdf)
+[01a-getting-started-with-R-and-Rstudio.pdf](../slides/01a-getting-started-with-R-and-Rstudio.pdf)
 
-[01b-a-bit-of-history-about-R.pdf](slides/01b-a-bit-of-history-about-R.pdf)
+[01b-a-bit-of-history-about-R.pdf](../slides/01b-a-bit-of-history-about-R.pdf)
 
 
 

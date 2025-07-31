@@ -13,9 +13,9 @@ functions in R to import tables in R.
 
 ## 📰 Slides
 
-[04a-data-frames.pdf](slides/04a-data-frames.pdf)
+[04a-data-frames.pdf](../slides/04a-data-frames.pdf)
 
-[04b-import-tables.pdf](slides/04b-import-tables.pdf)
+[04b-import-tables.pdf](../slides/04b-import-tables.pdf)
 
 
 

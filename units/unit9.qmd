@@ -12,7 +12,7 @@ used by R to handle if-else statements and related conditionals constructs.
 
 ## 📰 Slides
 
-[09-conditionals.pdf](slides/09-conditionals.pdf)
+[09-conditionals.pdf](../slides/09-conditionals.pdf)
 
 
 

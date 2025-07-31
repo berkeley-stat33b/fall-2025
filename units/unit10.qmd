@@ -12,7 +12,7 @@ for loops and while loops, among other idioms.
 
 ## 📰 Slides
 
-[10-iterations.pdf](slides/10-iterations.pdf)
+[10-iterations.pdf](../slides/10-iterations.pdf)
 
 
 

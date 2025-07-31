@@ -17,7 +17,7 @@ talk about performance and memory usage of R code.
 
 ## 📰 Slides
 
-[12-names-values-environments.pdf](slides/12-names-values-environments.pdf)
+[12-names-values-environments.pdf](../slides/12-names-values-environments.pdf)
 
 
 

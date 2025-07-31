@@ -11,7 +11,7 @@ This week we review more underlying principles that have to do with performance 
 
 ## 📰 Slides
 
-[14-performance-profiling.pdf](slides/14-performance-profiling.pdf)
+[14-performance-profiling.pdf](../slides/14-performance-profiling.pdf)
 
 
 

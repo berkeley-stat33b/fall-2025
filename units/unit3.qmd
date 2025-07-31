@@ -14,9 +14,9 @@ We continue describing more data objects in R such as
 
 ## 📰 Slides
 
-[03a-matrices.pdf](slides/03a-matrices.pdf)
+[03a-matrices.pdf](../slides/03a-matrices.pdf)
 
-[03b-lists.pdf](slides/03b-lists.pdf)
+[03b-lists.pdf](../slides/03b-lists.pdf)
 
 
 
