@@ -11,7 +11,7 @@ This week we review the syntax used by R for writing functions.
 
 ## 📰 Slides
 
-11-functions.pdf
+[11-functions.pdf](slides/11-functions.pdf)
 
 
 

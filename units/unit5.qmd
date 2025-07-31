@@ -17,9 +17,9 @@ and other 2-dimensional objects) using a modern and syntactic way.
 
 ## 📰 Slides
 
-05a-intro-to-dplyr.pdf
+[05a-intro-to-dplyr.pdf](slides/05a-intro-to-dplyr.pdf)
 
-05b-intro-to-ggplot.pdf
+[05b-intro-to-ggplot.pdf](slides/05b-intro-to-ggplot.pdf)
 
 
 

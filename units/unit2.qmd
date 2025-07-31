@@ -24,11 +24,11 @@ __vectors__ and their cousins __factors__. We'll focus on important concepts lik
 
 ## 📰 Slides
 
-02a-vectors-intro.pdf
+[02a-vectors-intro.pdf](slides/02a-vectors-intro.pdf)
 
-02b-vectors-subsetting.pdf
+[02b-vectors-subsetting.pdf](slides/02b-vectors-subsetting.pdf)
 
-02c-factors.pdf
+[02c-factors.pdf](slides/02c-factors.pdf)
 
 
 
