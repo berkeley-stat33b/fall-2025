@@ -27,7 +27,7 @@
         - type: "Homework"
           id: ""
           name: "HW 1: Quarto notebooks (due 9/02)"
-          href: "https://bcourses.berkeley.edu/courses/1541245/assignments/8843202"
+          href: "https://bcourses.berkeley.edu/courses/1546288/assignments/8926266"
 - week: 2
   days:
     - date: "About"
@@ -61,7 +61,7 @@
         - type: "Homework"
           id: ""
           name: "HW 2: Vectors (avail due 9/09)"
-          href: "https://bcourses.berkeley.edu/courses/1541245/assignments/8843202"
+          href: "https://bcourses.berkeley.edu/courses/1546288/assignments/8926267"
 - week: 3
   days:
     - date: "About"
@@ -91,7 +91,7 @@
         - type: "Homework"
           id: ""
           name: "HW 3: Matrices and Lists (due 9/16)"
-          href: "https://bcourses.berkeley.edu/courses/1541245/assignments/8843202"
+          href: "https://bcourses.berkeley.edu/courses/1546288/assignments/8926268"
 - week: 4
   days:
     - date: "About"
@@ -121,7 +121,7 @@
         - type: "Homework"
           id: ""
           name: "HW 4: Data Frames (due 9/23)"
-          href: "https://bcourses.berkeley.edu/courses/1541245/assignments/8843203"
+          href: "https://bcourses.berkeley.edu/courses/1546288/assignments/8926269"
 - week: 5
   days:
     - date: "About"
@@ -149,7 +149,7 @@
         - type: "Homework"
           id: ""
           name: "HW 5: Tidyverse 1 (due 9/30)"
-          href: "https://bcourses.berkeley.edu/courses/1541245/assignments/8843203"
+          href: "https://bcourses.berkeley.edu/courses/1546288/assignments/8926270"
 - week: 6
   days:
     - date: "About"
@@ -177,7 +177,7 @@
         - type: "Homework"
           id: ""
           name: "HW 6: Tidyverse 2 (due 10/7)"
-          href: "https://bcourses.berkeley.edu/courses/1541245/assignments/8843202"
+          href: "https://bcourses.berkeley.edu/courses/1546288/assignments/8926271"
 - week: 7
   days:
     - date: "About"
@@ -205,7 +205,7 @@
         - type: "Homework"
           id: ""
           name: "HW 7: Tidyverse 3 (due 10/21)"
-          href: "https://bcourses.berkeley.edu/courses/1541245/assignments/8843202"
+          href: "https://bcourses.berkeley.edu/courses/1546288/assignments/8928052"
 - week: 8
   days:
     - date: "About"
@@ -257,7 +257,7 @@
         - type: "Homework"
           id: ""
           name: "HW 9: Conditionals (due 10/28)"
-          href: "https://bcourses.berkeley.edu/courses/1541245/assignments/8843202"
+          href: "https://bcourses.berkeley.edu/courses/1546288/assignments/8929107"
 - week: 10
   days:
     - date: "About"
@@ -285,7 +285,7 @@
         - type: "Homework"
           id: ""
           name: "HW 10: Iterations (due 11/04)"
-          href: "https://bcourses.berkeley.edu/courses/1541245/assignments/8843206"
+          href: "https://bcourses.berkeley.edu/courses/1546288/assignments/8929108"
 - week: 11
   days:
     - date: "About"
@@ -313,7 +313,7 @@
         - type: "Homework"
           id: ""
           name: "HW 11: Functions (due 11/11)"
-          href: "https://bcourses.berkeley.edu/courses/1541245/assignments/8843206"
+          href: "https://bcourses.berkeley.edu/courses/1546288/assignments/8929109"
 - week: 12
   days:
     - date: "About"
@@ -341,7 +341,7 @@
         - type: "Homework"
           id: ""
           name: "HW 12: Bindigns and Envs (due 11/18)"
-          href: "https://bcourses.berkeley.edu/courses/1541245/assignments/8843207"
+          href: "https://bcourses.berkeley.edu/courses/1546288/assignments/8929111"
 - week: 13
   days:
     - date: "About"
@@ -369,7 +369,7 @@
         - type: "Homework"
           id: ""
           name: "HW 13: Scoping (due 12/02)"
-          href: "https://bcourses.berkeley.edu/courses/1541245/assignments/8843207"
+          href: "https://bcourses.berkeley.edu/courses/1546288/assignments/8929110"
 - week: "Thanksgiving Break"
   days:
     - date: "Nov 26"
@@ -411,7 +411,7 @@
         - type: "Homework"
           id: ""
           name: "HW 14: Performance and Profiling (due 12/09)"
-          href: "https://bcourses.berkeley.edu/courses/1541245/assignments/8843207"
+          href: "https://bcourses.berkeley.edu/courses/1546288/assignments/8929112"
 - week: 15
   days:
     - date: "About"
