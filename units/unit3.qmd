@@ -28,7 +28,7 @@ At the end of this week you will be able to:
 - Explain how R internally stores matrices
 - Use brackets `[]` to subset matrices
 - Describe why matrices are atomic objects
-- Creation of functions with `list()`
+- Creation of lists with `list()`
 - Describe in what sense a list is considered to be a non-atomic vector
  
 

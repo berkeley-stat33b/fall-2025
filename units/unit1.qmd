@@ -36,7 +36,7 @@ In case of emergency, you can also use RStudio from Berkeley datahub: <https://r
 
 ## 📚 Reading
 
-If you haven't yet, please spend some time outside class to review the following documentation:
+Please spend some time outside class to review the following documentation:
 
 - <a href="../syllabus.html" target="_blank">syllabus</a>
 - <a href="../email.html" target="_blank">communication via email</a>
