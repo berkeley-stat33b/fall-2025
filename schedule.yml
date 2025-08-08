@@ -156,7 +156,7 @@
       items:
         - type: "Overview"
           id: ""
-          name: "Unit 6: Tidyverse 2"
+          name: "Unit 6: Tidyverse part 2"
           href: "./units/unit6.html"
         - type: "Slides"
           id: ""
@@ -184,7 +184,7 @@
       items:
         - type: "Overview"
           id: ""
-          name: "Unit 7: Tidyverse 3"
+          name: "Unit 7: Tidyverse part 3"
           href: "./units/unit7.html"
         - type: "Slides"
           id: ""
