@@ -17,7 +17,7 @@
       items:
         - type: "Lecture"
           id: ""
-          name: "Course policies, syllabus, etc"
+          name: "Course Policies, Syllabus, etc"
           href: ""
     - date: "Aug 29"
       items:
@@ -51,7 +51,7 @@
       items:
         - type: "Lecture"
           id: ""
-          name: "A bit of financial math"
+          name: "A Bit of Financial Math"
           href: ""
     - date: "Sep 5"
       items:
@@ -81,7 +81,7 @@
       items:
         - type: "Lecture"
           id: ""
-          name: "A bit of Matrix Decompositions"
+          name: "A Bit of Matrix Decompositions"
           href: ""
     - date: "Sep 12"
       items:
@@ -160,8 +160,8 @@
           href: "./units/unit6.html"
         - type: "Slides"
           id: ""
-          name: "More dplyr (pdf)"
-          href: "slides/06a-more-dplyr.pdf"
+          name: "Climate Change Excessive Heat (cont'd)"
+          href: ""
     - date: "Oct 1"
       items:
         - type: "Lecture"
@@ -425,4 +425,4 @@
       items:
         - type: "Final"
           id: ""
-          name: "Final Exam 5/13 (7-10pm)"
+          name: "Final Exam 12/18 (3-6pm)"
