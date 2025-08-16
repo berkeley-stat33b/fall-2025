@@ -12,7 +12,7 @@ Unless Campus authorities decide to switch to remote instruction, there won't be
 
 <br>
 
-__Do you have a Covid (or other illness) policy?__ <br>
+__Do you have an illness policy (e.g. Covid, Flu)?__ <br>
 Maintaining your health and that of the Berkeley community is of primary importance to course staff, so if you are feeling ill or have been exposed to illness, please do not come to class. All of the materials used in class will be posted either in this website or in bCourses. Likewise, you're encouraged to reach out to fellow students to discuss the class materials or stop by office hours to chat with the GSI, the tutor, or the instructor.
 
 Having said that, we expect you to attend lecture and lab. Past experience tells us that students who constantly miss lecture/lab tend to have a mediocre performance.
@@ -22,7 +22,7 @@ Also, missing lecture/lab does not give you the right to use OH as a replacement
 <br>
 
 __STAT 33A or 33B?__ <br>
-You might be wondering what the difference is between STAT 33A and STAT 33B. Broadly speaking, the topics in STAT 33A are a subset of the topics in 33B.
+You might be wondering what the difference is between STAT 33A and STAT 33B. Broadly speaking, the topics in STAT 33A are a subset of the topics in 33B. Please keep in mind that STAT 33A is not offered this Fall-2025 semester.
 
 <span style="background-color: #b1ff00;">33A is designed for people that have never programmed before</span>, the pace of certain parts is slower, and more examples are provided. 33A puts slightly more emphasis on data analysis packages than 33B. The primary goal of 33A is that students finish the course with the basic programming skills necessary for a typical data analysis or implementation of a simple algorithm.
 
