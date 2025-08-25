@@ -1,244 +1,243 @@
 [
   {
-    "objectID": "units/unit13.html",
-    "href": "units/unit13.html",
-    "title": "13) Scoping",
+    "objectID": "cheatsheets.html",
+    "href": "cheatsheets.html",
+    "title": "Cheat Sheets",
     "section": "",
-    "text": "This week we review more technical aspects of functions in R. Specifically, we will focus on the scoping mechanisms used by R to find the value of a variable.",
+    "text": "Cheat sheets are your friends, use them at all times.\n\nrstudio-IDE-cheatsheet.pdf\nrmarkdown-cheatsheet-2.0.pdf\nbase-r-cheatsheet.pdf\ndplyr-cheatsheet.pdf\nggplot2-cheatsheet-2.1.pdf\ndata-import-cheatsheet.pdf",
     "crumbs": [
-      "Units",
-      "13) Scoping"
+      "Other",
+      "Cheatsheets"
     ]
   },
   {
-    "objectID": "units/unit13.html#scoping-rules",
-    "href": "units/unit13.html#scoping-rules",
-    "title": "13) Scoping",
+    "objectID": "syllabus.html",
+    "href": "syllabus.html",
+    "title": "Syllabus",
     "section": "",
-    "text": "This week we review more technical aspects of functions in R. Specifically, we will focus on the scoping mechanisms used by R to find the value of a variable.",
+    "text": "STAT 33B is a course designed primarily for those who are already familiar with programming in another language (e.g. Python, C, Java), and want to understand how R works, and for those who already know the basics of R programming and want to gain a more in-depth understanding of the language in order to improve their coding.\nThe focus is on the underlying paradigms in R, such as atomic and non-atomic vectors, functional programming, environments, and object systems (time permitting).\nThe goal of this course is to better understand programming principles in R and to write better R code that capitalizes on the language’s design.\nTopics include (not necessarily covered in the following order):\n\n🔠 data types and data structures in R (e.g. vectors, arrays, lists, data frames)\n🔨 Tools for data manipulation\n📊 Tools for data visualization\n📥 Data input/output\n📝 Writing simple functions\n🔀 Control flow structures (e.g. conditionals, iterations)\n📑 Argument matching\n📢 Function calls\n➕ The formula language of R (time permitting)",
     "crumbs": [
-      "Units",
-      "13) Scoping"
+      "Syllabus"
     ]
   },
   {
-    "objectID": "units/unit13.html#slides",
-    "href": "units/unit13.html#slides",
-    "title": "13) Scoping",
-    "section": "📰 Slides",
-    "text": "📰 Slides\n13-functions-scoping.pdf",
-    "crumbs": [
-      "Units",
-      "13) Scoping"
-    ]
-  },
-  {
-    "objectID": "units/unit13.html#objectives",
-    "href": "units/unit13.html#objectives",
-    "title": "13) Scoping",
-    "section": "🎯 Objectives",
-    "text": "🎯 Objectives\n\nProvide an example of “name masking”\nProvide an example of “functions versus variables”\nProvide an example of “fresh start”\nProvide an example of “dynamic lookup”",
-    "crumbs": [
-      "Units",
-      "13) Scoping"
-    ]
-  },
-  {
-    "objectID": "units/unit13.html#reading",
-    "href": "units/unit13.html#reading",
-    "title": "13) Scoping",
-    "section": "📚 Reading",
-    "text": "📚 Reading\n\nhttps://adv-r.hadley.nz/functions.html#lexical-scoping\nhttps://adv-r.hadley.nz/names-values.html\nhttp://adv-r.had.co.nz/Environments.html",
-    "crumbs": [
-      "Units",
-      "13) Scoping"
-    ]
-  },
-  {
-    "objectID": "units/unit2.html",
-    "href": "units/unit2.html",
-    "title": "2) Vectors and Factors",
+    "objectID": "syllabus.html#description",
+    "href": "syllabus.html#description",
+    "title": "Syllabus",
     "section": "",
-    "text": "In this module we describe data types and their implementation in R objects like vectors and their cousins factors. We’ll focus on important concepts like:\n\nvectors and their data types (e.g. logical, integer, double or real, and character).\ncreation of vectors: various ways and functions to create vectors.\nimplicit coercion rules: what R does when you combine values of different data types.\nvectorization: when R applies calculations or operations to all the elements of a vector (element-wise).\nrecycling: what R does when you perform a calculation with vectors of different length.\nsubsetting (aka indexing, subscripting, bracket notation)",
+    "text": "STAT 33B is a course designed primarily for those who are already familiar with programming in another language (e.g. Python, C, Java), and want to understand how R works, and for those who already know the basics of R programming and want to gain a more in-depth understanding of the language in order to improve their coding.\nThe focus is on the underlying paradigms in R, such as atomic and non-atomic vectors, functional programming, environments, and object systems (time permitting).\nThe goal of this course is to better understand programming principles in R and to write better R code that capitalizes on the language’s design.\nTopics include (not necessarily covered in the following order):\n\n🔠 data types and data structures in R (e.g. vectors, arrays, lists, data frames)\n🔨 Tools for data manipulation\n📊 Tools for data visualization\n📥 Data input/output\n📝 Writing simple functions\n🔀 Control flow structures (e.g. conditionals, iterations)\n📑 Argument matching\n📢 Function calls\n➕ The formula language of R (time permitting)",
     "crumbs": [
-      "Units",
-      "2) Vectors and Factors"
+      "Syllabus"
     ]
   },
   {
-    "objectID": "units/unit2.html#vectors-and-factors",
-    "href": "units/unit2.html#vectors-and-factors",
-    "title": "2) Vectors and Factors",
+    "objectID": "syllabus.html#mode-of-instruction",
+    "href": "syllabus.html#mode-of-instruction",
+    "title": "Syllabus",
+    "section": "🏫 Mode of Instruction",
+    "text": "🏫 Mode of Instruction\nThis semester STAT 33B is structured as a flipped class, meaning that you will gain initial exposure to new concepts before class (mostly in the form of slides and suggested readings) and then apply that knowledge through activities like discussions, problem-solving, and coding during class-and-lab time, as well as outside the classroom.\nBefore Class. It is your responsibility to become familiar with the topics that appear in the slides sections. Optionally, you may want to review the recommended readings. Likewise, there will be ungraded practice coding exercises in case you want apply your knowledge or test your understanding of the weekly concepts.\nDuring class on Wed. Class time will be spent on live demos to illustrate R programming concepts with some small, yet real-life, examples. Do not be surprised or worried about not following the details of R code during class – that is not the point (furthermore, there will sometimes be code that is really specific to the instructional purposes of the lecture, e.g. to make a specific plot, and is beyond the scope of what you would be expected to understand how to do yourself). Commented demo files will be shared in bCourses right after class, or one day after class.\nDuring Section on Fri. Lab time will be dedicated to apply your knowledge by working through questions (in the format of printed worksheets) solo or in groups, and also to start working on the weekly coding assignment.\nAfter Section. You will keep working on the weekly homework (coding) assignment. These assignments are typically extensions of the examples discussed in lecture. However, assignments will sometimes ask you to learn about a topic related to but not covered in lecture/lab.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#ℹ-prerequisites",
+    "href": "syllabus.html#ℹ-prerequisites",
+    "title": "Syllabus",
+    "section": "ℹ️ Prerequisites",
+    "text": "ℹ️ Prerequisites\nAlthough this course does not have any prerequisites, the curriculum and format are designed specifically for students who have previous programming experience. Students with no or minimal programming experience should not be taking this course; instead they should consider other courses such as STAT 33A Introduction to Programming in R or BJC The Beauty and Joy of Computing. BTW: you don’t need to have taken an introductory course in statistics.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#textbooks",
+    "href": "syllabus.html#textbooks",
+    "title": "Syllabus",
+    "section": "📚 Textbooks",
+    "text": "📚 Textbooks\nThis course does not have an “official” textbook although weekly readings will be assigned from the following books:\n\nR Coding Basics (by G. Sanchez). https://www.gastonsanchez.com/R-coding-basics\nAdvanced R, 2nd Edition (by H. Wickham). https://adv-r.hadley.nz\nR for Data Science (by H. Wickham & G. Grolemund). https://r4ds.had.co.nz\nHands-On Programming with R (by G. Grolemund). https://rstudio-education.github.io/hopr",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#expectations",
+    "href": "syllabus.html#expectations",
+    "title": "Syllabus",
+    "section": "🤞 Expectations",
+    "text": "🤞 Expectations\nThis is a programming course rather than a math or statistics course. Programming is a broad topic, so it’s not possible for lecture to provide you with a specific recipe for every situation you may encounter. Instead, one of the goals of this class is to help you become comfortable reading R code, and understanding its underlying working principles, as well as its documentation.\nWe don’t expect you to become an R expert. That takes YEARS of practice and learning. Instead, we want to give you a good foundation to understand R’s programming language.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#course-culture",
+    "href": "syllabus.html#course-culture",
+    "title": "Syllabus",
+    "section": "🏫 Course Culture",
+    "text": "🏫 Course Culture\nStudents taking Stat 33B come from a wide range of backgrounds. We hope to foster an inclusive and supportive learning environment based on curiosity rather than competition. All members of the course community—the instructor, GSI, students, and readers—are expected to treat each other with courtesy and respect.\nYou will be interacting with course staff and fellow students in several different environments: in class, in lab, over the discussion forum, and in office hours. Some of these will be in person, some of them will be online, but the same expectations hold: be kind, be respectful, be professional.\nIf you are concerned about classroom environment issues created by other students or course staff, please come talk to us about it.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#waitlisted-students-and-late-joining",
+    "href": "syllabus.html#waitlisted-students-and-late-joining",
+    "title": "Syllabus",
+    "section": "⏳ Waitlisted Students and Late Joining",
+    "text": "⏳ Waitlisted Students and Late Joining\nWe will not be offering extensions if you are admitted or enrolled into the course later. So it is your responsibility to stay up to date on the assignments. With that said, please keep in mind our policies for Participation and HW (see sections below).\nUnfortunately, doing all the work is not a guarantee of enrollment. You will only be enrolled if there is space in your lab. Enrollment will proceed by CalCentral.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#participation-and-worksheets-12-of-final-grade",
+    "href": "syllabus.html#participation-and-worksheets-12-of-final-grade",
+    "title": "Syllabus",
+    "section": "📝 Participation and Worksheets (12% of final grade)",
+    "text": "📝 Participation and Worksheets (12% of final grade)\n\nAttending section every week is an essential part of the course and you will be provided with printed worksheets to apply your knowledge by working through questions solo or in groups, and also to start working on the weekly coding assignments.\nYou must attend the lab section you are officially enrolled in.\nWorksheets will be handed-out during section.\nThey consist of questions to check your understanding from the slides you have to read before each lecture.\nRegardless of whether you work solo or in groups, you must turn in your answered worksheet at the end of section (i.e. individual submission).\nTurned-in worksheets will be graded credit / no-credit for completion where full credit is given if you earnestly engage with the assignment (that is, put in a good effort to complete the problems).\nSolutions will be posted on bCourses one day after lab discussion.\nBecause we won’t give worksheets back, we suggest that you take a picture or scan them so that you can compare your answers with the solutions.\nThe first worksheet will not count towards your participation score. From the remaining worksheets, your lowest 2 scores will be dropped in the calculation of your overall grade.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#homework-48-of-final-grade",
+    "href": "syllabus.html#homework-48-of-final-grade",
+    "title": "Syllabus",
+    "section": "📁 Homework (48% of final grade)",
+    "text": "📁 Homework (48% of final grade)\n\nThere will be weekly homework (coding) assignments.\nThese assignments will typically be extensions of the examples presented during lecture.\nYou will start working on a HW assignment during the second half of section, and will have four more days (Sat, Sun, Mon, Tue) to complete them.\nHW assignments will submitted through bCourses (individual submission).\nHW will be due at 10:50PM on Tuesday after they were assigned in section, and there will be a grace submission period of 10 minutes. See Late Submission Policy below for more information about late submissions.\nYou must write your own answers (using your own words and/or code). Copy and plagiarism will not be tolerated (see Academic Honesty policy).\nIf you don’t submit all required files, you will receive an automatic 10% deduction.\nIf you submit the incorrect files, you will receive no credit.\nThe first HW will not count towards your HW score. From the remaining HW assignments, your 2 lowest scores will be dropped in the calculation of your overall grade.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#late-policy",
+    "href": "syllabus.html#late-policy",
+    "title": "Syllabus",
+    "section": "🕚 Late Submission Policy",
+    "text": "🕚 Late Submission Policy\nGiven that STAT 33B is a 1-unit course, unless you have applicable DSP accommodations, we won’t be able to offer extensions of any kind.\nIf you cannot turn in a printed worksheet with your handwritten answers (because you did not attend lab, or you forgot to turn the worksheet in), please recall that we are dropping the 2 lowest worksheet scores.\nIn case you are not able to submit a HW assignment on time, our default policy is:\n\nSubmissions within 24 hours after the deadline will receive an 11% deduction.\nSubmissions within 48 hours after the deadline will receive a 22% deduction.\nSubmissions that are 48 hours or more after the deadline will receive no credit.\n\nThis late submission policy is in place to take care of any extenuating circumstances that prevent you from submitting a HW assignment by the due date. In addition, recall that we are dropping the 2 lowest HW scores.\nExtensions for DSP students: If you are enrolled with DSP and have accommodations for assignment extensions, you may request occasional extensions up to 2 days. Please email your GSI, and cc Prof. Sanchez, to make such a request, preferably 2 days before the assignment’s deadline.\nPlease plan ahead and pace yourself. Don’t wait until the last day to do an assignment.  Don’t wait until the last minute to submit your assignments.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#midterm-10-of-final-grade",
+    "href": "syllabus.html#midterm-10-of-final-grade",
+    "title": "Syllabus",
+    "section": "📄 Midterm (10% of final grade)",
+    "text": "📄 Midterm (10% of final grade)\n\nThere will be one in-person midterm scheduled on Oct-15th.\nThe midterm will take place during class time (Wed, 2-3PM, Latimer 120)",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#final-exam-30-of-final-grade",
+    "href": "syllabus.html#final-exam-30-of-final-grade",
+    "title": "Syllabus",
+    "section": "📝 Final Exam (30% of final grade)",
+    "text": "📝 Final Exam (30% of final grade)\n\nThere will be one in-person final exam.\nTo pass the course, you have to complete the final exam.\nThe final exam will be held on Thursday, Dec-18th, 3pm-6pm, location TBA as scheduled by the University.\nUnless you have accommodations as determined by the university and approved by the instructor, you must take the exam at the date indicated above.\nPlease check your course schedule and make sure that you can take the final exam on the date indicated above. Otherwise, do not take the class if you are not available at this date.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#grading-structure",
+    "href": "syllabus.html#grading-structure",
+    "title": "Syllabus",
+    "section": "💯 Grading Structure",
+    "text": "💯 Grading Structure\nGrades will be assigned using the following scheme:\n\n12% Worksheets and participation (2 drops)\n48% HW (2 drops)\n10% Midterm\n30% Final Exam\n\n\nTo complete the course, you must take the final exam.\nTo give you a rough idea of the grading scheme, the assignment of letter grades will be:\n\n😀 90-100% (Excellent) A-/A range\n🙂 80-90% (Good) B-/B/B+ range\n😐 70-80% (Fair) C-/C/C+ range\n🙁 60-70% (Deficient) D\n😞 Below 60% (Failed) F\n\nIf you are taking the class pass-fail, the cut-oﬀ for passing is 70% (C-).\nAs a matter of course policy, I do not round up when calculating letter grades. Ex: if your overall score is 79.9999%, then the highest letter grade that you can expect is a C+, not a B-.\nThere is no curve; your grade will depend only on how well you do, and not on how well everyone else does.\nLetter grades are final; I don’t enter into negotiations with students about grades.\nPlease do not engage in grade grubbing.\nAlso, please remember that we grade your course performance, not your personal worth.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#generative-a.i.-policy",
+    "href": "syllabus.html#generative-a.i.-policy",
+    "title": "Syllabus",
+    "section": "⚠️ Generative A.I. Policy",
+    "text": "⚠️ Generative A.I. Policy\nGenerative A.I. refers to artificial intelligence technologies, like those used for ChatGPT, Gemini or similar, that can draw on a large corpus of training data to create new written, visual, or audio content.\nThere are two principles we use to guide our class policy on AI use:\n\nCognitive dimension: Working with AI should not reduce your ability to think clearly. The use of AI should facilitate—rather than hinder—learning.\nEthical dimension: Students using AI should be transparent about their use and make sure it aligns with academic integrity.\n\nIn this course, we’ll be developing skills that are important to practice on your own. Because use of generative A.I. may inhibit the development of those skills, the use of these tools is permitted in this course for the following activities:\n\nBrainstorming and refining your ideas;\nChecking syntax errors or bugs in your code; and\nPolishing your spelling and grammar (when applicable).\n\nThe use of generative A.I. tools is not permitted in this course for the following activities:\n\nImpersonating you in classroom contexts, such as by using the tool to compose discussion board prompts assigned to you or content that you put into a discussion forum/chat.\nAttempting to pass off AI-generated work as your own.\nWriting a draft of your assignment.\nWriting entire blocks of code, functions, or scripts to complete class assignments.\n\nIn the event that some of your code is generated by AI, please give credit to the tool(s) you are using.\nIf you are unsure of whether and how much of a submission has been AI-generated, or whether you are in violation of a certain policy, please reach out to us and ask for guidance.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#academic-honesty",
+    "href": "syllabus.html#academic-honesty",
+    "title": "Syllabus",
+    "section": "☝️ Academic Honesty",
+    "text": "☝️ Academic Honesty\nYou should not share your code or answers, directly or indirectly, with other students. Doing so doesn’t help them; it just sets them up for trouble on exams. Feel free to discuss the problems with others beforehand, but not the solutions. Please complete your own work and keep it to yourself (e.g. avoid sharing it in hosting platforms like Github or similar). If you suspect other people may be plagiarizing you, let us know ASAP.\nWe expect you to do your own work and to uphold the standards of intellectual integrity. Collaborating on homework is fine and we encourage you to work together—but copying is not, nor is having somebody else submit assignments for you. Likewise, obtaining and/or using solutions from previous years or from the internet, if such happen to be available, is considered cheating.\nBeyond the templates or starting code provided by the teaching staff, any writing, code, media, or other submissions not explicitly identified as AI-generated will be assumed as original to the student. Submitting AI-generated work without identifying it as such will be considered a violation of the Code of Student Conduct.\nCheating will not be tolerated. Any evidence of academic misconduct will result in a score of zero (0) on the entire assignment or examination, and a failing letter grade. We will always report incidences of cheating to the Center for Student Conduct.\nIf you are having trouble with an assignment or studying for an exam, or if you are uncertain about permissible and impermissible conduct or collaboration, please contact us.\nRather than copying someone else’s work, ask for help. You are not alone in this course! The course staff is here to help you succeed. If you invest the time to learn the material and complete the projects, you won’t need to copy any answers.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#email-policy",
+    "href": "syllabus.html#email-policy",
+    "title": "Syllabus",
+    "section": "✉️ Email Policy",
+    "text": "✉️ Email Policy\nIf you wish for your email to make it into our inbox, the subject of your email must contain the text: Stat 33B.\nPlease refer to my email guidelines for more information: communication via email",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#special-accommodations",
+    "href": "syllabus.html#special-accommodations",
+    "title": "Syllabus",
+    "section": "🚸 Special Accommodations",
+    "text": "🚸 Special Accommodations\nStudents needing accommodations for any physical, psychological, or learning disability, should contact the teaching staff during the first two weeks of the semester, and see http://dsp.berkeley.edu to learn about Berkeley’s policy. If you are a DSP student, please contact us at least three weeks prior to a midterm or final so that we can work out acceptable accommodations.\nFor relevant DSP accommodations that provide occasional extensions on assignments, please see the above Late Policy.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#incomplete-grade",
+    "href": "syllabus.html#incomplete-grade",
+    "title": "Syllabus",
+    "section": "❗Incomplete Grade",
+    "text": "❗Incomplete Grade\nUnder emergency/special circumstances, students may petition me to receive an Incomplete grade. By University policy, for a student to get an Incomplete requires (i) that the student was performing passing-level work until the time that (ii) something happened that—through no fault of the student—prevented the student from completing the coursework. If you take the final, you completed the course, even if you took it while ill, exhausted, mourning, etc.\nThe time to talk to me about incomplete grades is BEFORE you take the final (several weeks before), when the situation that prevents you from finishing the course presents itself. Please clearly state your reasoning in your comments to me.\nIt is your responsibility to develop good time management skills, good studying habits, know your limits, and learn to ask for professional help. Life happens. Social, family, cultural, scholar, and individual circumstances can affect your performance (both positive and negatively). If you find yourself in a situation that raises concerns about passing the course, please contact me as soon as possible.\nAbove all, please-please-please do not wait till the end of the semester to share your concerns about passing the course because it will be too late by then.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#safe-and-inclusive-environment",
+    "href": "syllabus.html#safe-and-inclusive-environment",
+    "title": "Syllabus",
+    "section": "🌻 Safe and Inclusive Environment",
+    "text": "🌻 Safe and Inclusive Environment\nWhenever a faculty member, staff member, post-doc, or GSI is responsible for the supervision of a student, a personal relationship between them of a romantic or sexual nature, even if consensual, is against university policy. Any such relationship jeopardizes the integrity of the educational process.\nAlthough faculty and staff can act as excellent resources for students, you should be aware that they are required to report any violations of this campus policy. If you wish to have a confidential discussion on matters related to this policy, you may contact the Confidential Care Advocates on campus for support related to counseling or sensitive issues. Appointments can be made by calling (510) 642-1988.\nThe classroom, lab, and work place should be safe and inclusive environments for everyone. The Office for the Prevention of Harassment and Discrimination (OPHD) is responsible for ensuring the University provides an environment for faculty, staff and students that is free from discrimination and harassment on the basis of categories including race, color, national origin, age, sex, gender, gender identity, and sexual orientation. Questions or concerns? Call (510) 643-7985, email ask_ophd@berkeley.edu, or go to https://svsh.berkeley.edu/.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "syllabus.html#last-but-not-least",
+    "href": "syllabus.html#last-but-not-least",
+    "title": "Syllabus",
+    "section": "🎉 Last But Not Least",
+    "text": "🎉 Last But Not Least\nThe main goal of STAT 33B is that you should learn, and have a fantastic experience doing so. Please keep that goal in mind throughout the semester.",
+    "crumbs": [
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "In this module we describe data types and their implementation in R objects like vectors and their cousins factors. We’ll focus on important concepts like:\n\nvectors and their data types (e.g. logical, integer, double or real, and character).\ncreation of vectors: various ways and functions to create vectors.\nimplicit coercion rules: what R does when you combine values of different data types.\nvectorization: when R applies calculations or operations to all the elements of a vector (element-wise).\nrecycling: what R does when you perform a calculation with vectors of different length.\nsubsetting (aka indexing, subscripting, bracket notation)",
+    "text": "Info\n\n\n\nInstructor: Gaston Sanchez\nLecture: Wed 2pm-3pm in Latimer 120\nLab:\n\nLab 101, Fri 9am-10am, Evans 342 (GSI Brian)\nLab 102, Fri 10am-11am, Evans 342 (GSI Brian)\nLab 103, Fri 1pm-2pm, Evans 342 (GSI Brian)\nLab 104, Fri 2pm-3pm, Evans 342 (GSI Brian)\n\nCode #: 23941\nUnits: 1\nFinal Exam: Thr Dec-18th, 3pm-6pm, location TBD.\nThis course introduces the R statistical software to students with minimal prior exposure to programming.\nThe course aims to prepare students to carry out a basic data analysis and to write simple functions. The focus is on the computational model that underlies the R language with the goal of providing a foundation for further coding.",
     "crumbs": [
-      "Units",
-      "2) Vectors and Factors"
+      "About"
     ]
   },
   {
-    "objectID": "units/unit2.html#slides",
-    "href": "units/unit2.html#slides",
-    "title": "2) Vectors and Factors",
-    "section": "📰 Slides",
-    "text": "📰 Slides\n02a-vectors-intro.pdf\n02b-vectors-subsetting.pdf\n02c-factors.pdf",
+    "objectID": "about.html#more-information",
+    "href": "about.html#more-information",
+    "title": "About",
+    "section": "More Information",
+    "text": "More Information\n\nSchedule\nSyllabus\nStaff\nCommunication via email\nEd Netiquette\nQ&As",
     "crumbs": [
-      "Units",
-      "2) Vectors and Factors"
-    ]
-  },
-  {
-    "objectID": "units/unit2.html#objectives",
-    "href": "units/unit2.html#objectives",
-    "title": "2) Vectors and Factors",
-    "section": "🎯 Objectives",
-    "text": "🎯 Objectives\nAt the end of this week you will be able to:\n\nList the four common data types in R, and give examples for them\nExplain why R vectors are said to be atomic objects\nDescribe and give an example of the implicit coercion rules\nDescribe and give an example of vectorized code\nDescribe and give an example of the recycling rule",
-    "crumbs": [
-      "Units",
-      "2) Vectors and Factors"
-    ]
-  },
-  {
-    "objectID": "units/unit2.html#reading",
-    "href": "units/unit2.html#reading",
-    "title": "2) Vectors and Factors",
-    "section": "📚 Reading",
-    "text": "📚 Reading\n\nhttps://www.gastonsanchez.com/R-coding-basics/1-01-vectors-intro.html\nhttps://www.gastonsanchez.com/R-coding-basics/1-02-vectors-properties.html\nhttps://www.gastonsanchez.com/R-coding-basics/1-03-vectors-creation.html\nhttps://www.gastonsanchez.com/R-coding-basics/1-04-vectors-concepts.html",
-    "crumbs": [
-      "Units",
-      "2) Vectors and Factors"
-    ]
-  },
-  {
-    "objectID": "units/unit4.html",
-    "href": "units/unit4.html",
-    "title": "4) Data Frames",
-    "section": "",
-    "text": "In this module we discuss the basics of data-frames, which are the dedicated object in R for handling tabular data sets. In addition, we also review some of the available functions in R to import tables in R.",
-    "crumbs": [
-      "Units",
-      "4) Data Frames"
-    ]
-  },
-  {
-    "objectID": "units/unit4.html#data-frames-and-importing-tables",
-    "href": "units/unit4.html#data-frames-and-importing-tables",
-    "title": "4) Data Frames",
-    "section": "",
-    "text": "In this module we discuss the basics of data-frames, which are the dedicated object in R for handling tabular data sets. In addition, we also review some of the available functions in R to import tables in R.",
-    "crumbs": [
-      "Units",
-      "4) Data Frames"
-    ]
-  },
-  {
-    "objectID": "units/unit4.html#slides",
-    "href": "units/unit4.html#slides",
-    "title": "4) Data Frames",
-    "section": "📰 Slides",
-    "text": "📰 Slides\n04a-data-frames.pdf\n04b-import-tables.pdf",
-    "crumbs": [
-      "Units",
-      "4) Data Frames"
-    ]
-  },
-  {
-    "objectID": "units/unit4.html#objectives",
-    "href": "units/unit4.html#objectives",
-    "title": "4) Data Frames",
-    "section": "🎯 Objectives",
-    "text": "🎯 Objectives\nAt the end of this week you will be able to:\n\nCreate simple tables with data.frame()\nExplain in what sense a data frame is a list\nExplain in what sense a data frame is a 2-dimensional object\nDescribe and give examples of subsetting (subscripting, indexing) of an R data frame\n\nprovide a manipulation example with single brackets, and 2-dimensions (e.g. dat[rows,cols])\nprovide a manipulation example with single brackets, and 1 dimension (e.g. dat[wagons])\nprovide a manipulation example with double brackets, and a single element (e.g. dat[[wagon]])\nprovide a manipulation example with the dollar operator (e.g. dat$wagon)\n\nImport tables with read.table() and derived functions: read.csv(), read.delim(), etc",
-    "crumbs": [
-      "Units",
-      "4) Data Frames"
-    ]
-  },
-  {
-    "objectID": "units/unit4.html#reading",
-    "href": "units/unit4.html#reading",
-    "title": "4) Data Frames",
-    "section": "📚 Reading",
-    "text": "📚 Reading\n\nhttps://www.gastonsanchez.com/R-coding-basics/4-02-data-frames.html\nhttps://rstudio-education.github.io/hopr/r-objects.html#data-frames\nhttps://adv-r.hadley.nz/vectors-chap.html#tibble",
-    "crumbs": [
-      "Units",
-      "4) Data Frames"
-    ]
-  },
-  {
-    "objectID": "units/unit8.html",
-    "href": "units/unit8.html",
-    "title": "8) Midterm",
-    "section": "",
-    "text": "Midterm test on Wed Oct-15, 2pm-3pm in Latimer 120\nLab section will take place as usual (Fri, worksheet 8)\nThere is no HW due this week; HW7 due date extended till Oct-21 (10:50 PM)\nAlso, there is no HW8 (because of midterm). Next assignment will be HW9 (released 10/24)",
-    "crumbs": [
-      "Units",
-      "8) Midterm"
-    ]
-  },
-  {
-    "objectID": "units/unit8.html#midterm",
-    "href": "units/unit8.html#midterm",
-    "title": "8) Midterm",
-    "section": "",
-    "text": "Midterm test on Wed Oct-15, 2pm-3pm in Latimer 120\nLab section will take place as usual (Fri, worksheet 8)\nThere is no HW due this week; HW7 due date extended till Oct-21 (10:50 PM)\nAlso, there is no HW8 (because of midterm). Next assignment will be HW9 (released 10/24)",
-    "crumbs": [
-      "Units",
-      "8) Midterm"
-    ]
-  },
-  {
-    "objectID": "units/unit5.html",
-    "href": "units/unit5.html",
-    "title": "5) Tidyverse part 1",
-    "section": "",
-    "text": "In addition to learning about the “classic” way to work with data frames, we will briefly touch on an “alternative” approach for working with tables provided by the ecosystem of packages known as the \"tidyverse\": https://www.tidyverse.org\nThis week we start with the tidyverse package \"dplyr\". Simply put, \"dplyr\" comes with functions that allow you to manipulate data-tables (e.g. data-frames, and other 2-dimensional objects) using a modern and syntactic way.",
-    "crumbs": [
-      "Units",
-      "5) Tidyverse part 1"
-    ]
-  },
-  {
-    "objectID": "units/unit5.html#intro-to-dplyr-and-ggplot2",
-    "href": "units/unit5.html#intro-to-dplyr-and-ggplot2",
-    "title": "5) Tidyverse part 1",
-    "section": "",
-    "text": "In addition to learning about the “classic” way to work with data frames, we will briefly touch on an “alternative” approach for working with tables provided by the ecosystem of packages known as the \"tidyverse\": https://www.tidyverse.org\nThis week we start with the tidyverse package \"dplyr\". Simply put, \"dplyr\" comes with functions that allow you to manipulate data-tables (e.g. data-frames, and other 2-dimensional objects) using a modern and syntactic way.",
-    "crumbs": [
-      "Units",
-      "5) Tidyverse part 1"
-    ]
-  },
-  {
-    "objectID": "units/unit5.html#slides",
-    "href": "units/unit5.html#slides",
-    "title": "5) Tidyverse part 1",
-    "section": "📰 Slides",
-    "text": "📰 Slides\n05a-intro-to-dplyr.pdf\n05b-intro-to-ggplot.pdf",
-    "crumbs": [
-      "Units",
-      "5) Tidyverse part 1"
-    ]
-  },
-  {
-    "objectID": "units/unit5.html#objectives",
-    "href": "units/unit5.html#objectives",
-    "title": "5) Tidyverse part 1",
-    "section": "🎯 Objectives",
-    "text": "🎯 Objectives\nWe’ll go over the set of functions available in \"dplyr\" to perform common manipulations of tabular data.\n\nSelecting rows with slice(), and filter()\nSelecting columns with select()\nTransforming columns with mutate()\nArranging rows with arrange()\nGrouping data with group_by()\nSummarizing data with summarize()",
-    "crumbs": [
-      "Units",
-      "5) Tidyverse part 1"
-    ]
-  },
-  {
-    "objectID": "units/unit5.html#reading",
-    "href": "units/unit5.html#reading",
-    "title": "5) Tidyverse part 1",
-    "section": "📚 Reading",
-    "text": "📚 Reading\n\nhttps://www.gastonsanchez.com/R-tidy-hurricanes/2-01-intro-ggplot.html\nhttps://www.gastonsanchez.com/R-tidy-hurricanes/2-02-intro-dplyr.html\nIn case you are curious, here’s an interesting opinion by UC-Davis Prof. Norman Matloff about the tidyverse: https://github.com/matloff/TidyverseSkeptic",
-    "crumbs": [
-      "Units",
-      "5) Tidyverse part 1"
+      "About"
     ]
   },
   {
@@ -297,6 +296,116 @@
     ]
   },
   {
+    "objectID": "units/unit4.html",
+    "href": "units/unit4.html",
+    "title": "4) Data Frames",
+    "section": "",
+    "text": "In this module we discuss the basics of data-frames, which are the dedicated object in R for handling tabular data sets. In addition, we also review some of the available functions in R to import tables in R.",
+    "crumbs": [
+      "Units",
+      "4) Data Frames"
+    ]
+  },
+  {
+    "objectID": "units/unit4.html#data-frames-and-importing-tables",
+    "href": "units/unit4.html#data-frames-and-importing-tables",
+    "title": "4) Data Frames",
+    "section": "",
+    "text": "In this module we discuss the basics of data-frames, which are the dedicated object in R for handling tabular data sets. In addition, we also review some of the available functions in R to import tables in R.",
+    "crumbs": [
+      "Units",
+      "4) Data Frames"
+    ]
+  },
+  {
+    "objectID": "units/unit4.html#slides",
+    "href": "units/unit4.html#slides",
+    "title": "4) Data Frames",
+    "section": "📰 Slides",
+    "text": "📰 Slides\n04a-data-frames.pdf\n04b-import-tables.pdf",
+    "crumbs": [
+      "Units",
+      "4) Data Frames"
+    ]
+  },
+  {
+    "objectID": "units/unit4.html#objectives",
+    "href": "units/unit4.html#objectives",
+    "title": "4) Data Frames",
+    "section": "🎯 Objectives",
+    "text": "🎯 Objectives\nAt the end of this week you will be able to:\n\nCreate simple tables with data.frame()\nExplain in what sense a data frame is a list\nExplain in what sense a data frame is a 2-dimensional object\nDescribe and give examples of subsetting (subscripting, indexing) of an R data frame\n\nprovide a manipulation example with single brackets, and 2-dimensions (e.g. dat[rows,cols])\nprovide a manipulation example with single brackets, and 1 dimension (e.g. dat[wagons])\nprovide a manipulation example with double brackets, and a single element (e.g. dat[[wagon]])\nprovide a manipulation example with the dollar operator (e.g. dat$wagon)\n\nImport tables with read.table() and derived functions: read.csv(), read.delim(), etc",
+    "crumbs": [
+      "Units",
+      "4) Data Frames"
+    ]
+  },
+  {
+    "objectID": "units/unit4.html#reading",
+    "href": "units/unit4.html#reading",
+    "title": "4) Data Frames",
+    "section": "📚 Reading",
+    "text": "📚 Reading\n\nhttps://www.gastonsanchez.com/R-coding-basics/4-02-data-frames.html\nhttps://rstudio-education.github.io/hopr/r-objects.html#data-frames\nhttps://adv-r.hadley.nz/vectors-chap.html#tibble",
+    "crumbs": [
+      "Units",
+      "4) Data Frames"
+    ]
+  },
+  {
+    "objectID": "units/unit3.html",
+    "href": "units/unit3.html",
+    "title": "3) Matrices and Lists",
+    "section": "",
+    "text": "We continue describing more data objects in R such as\n\natomic objects: matrices (and N-dim arrays)\nnon-atomic objects: lists",
+    "crumbs": [
+      "Units",
+      "3) Matrices and Lists"
+    ]
+  },
+  {
+    "objectID": "units/unit3.html#matrices-and-lists",
+    "href": "units/unit3.html#matrices-and-lists",
+    "title": "3) Matrices and Lists",
+    "section": "",
+    "text": "We continue describing more data objects in R such as\n\natomic objects: matrices (and N-dim arrays)\nnon-atomic objects: lists",
+    "crumbs": [
+      "Units",
+      "3) Matrices and Lists"
+    ]
+  },
+  {
+    "objectID": "units/unit3.html#slides",
+    "href": "units/unit3.html#slides",
+    "title": "3) Matrices and Lists",
+    "section": "📰 Slides",
+    "text": "📰 Slides\n03a-matrices.pdf\n03b-lists.pdf",
+    "crumbs": [
+      "Units",
+      "3) Matrices and Lists"
+    ]
+  },
+  {
+    "objectID": "units/unit3.html#objectives",
+    "href": "units/unit3.html#objectives",
+    "title": "3) Matrices and Lists",
+    "section": "🎯 Objectives",
+    "text": "🎯 Objectives\nAt the end of this week you will be able to:\n\nCreate matrices with the function matrix(), rbind(), and cbind()\nExplain how R internally stores matrices\nUse brackets [] to subset matrices\nDescribe why matrices are atomic objects\nCreation of lists with list()\nDescribe in what sense a list is considered to be a non-atomic vector",
+    "crumbs": [
+      "Units",
+      "3) Matrices and Lists"
+    ]
+  },
+  {
+    "objectID": "units/unit3.html#reading",
+    "href": "units/unit3.html#reading",
+    "title": "3) Matrices and Lists",
+    "section": "📚 Reading",
+    "text": "📚 Reading\n\nhttps://www.gastonsanchez.com/R-coding-basics/3-01-matrices-intro.html\nhttps://www.gastonsanchez.com/R-coding-basics/3-02-matrices-operations.html\nhttps://www.gastonsanchez.com/R-coding-basics/4-01-lists.html\nhttps://adv-r.hadley.nz/vectors-chap.html#lists\nhttps://rstudio-education.github.io/hopr/r-objects.html#matrices\nhttps://rstudio-education.github.io/hopr/r-objects.html#lists",
+    "crumbs": [
+      "Units",
+      "3) Matrices and Lists"
+    ]
+  },
+  {
     "objectID": "units/unit9.html",
     "href": "units/unit9.html",
     "title": "9) Conditionals",
@@ -352,80 +461,179 @@
     ]
   },
   {
-    "objectID": "email.html",
-    "href": "email.html",
-    "title": "Communication via Email",
+    "objectID": "units/unit12.html",
+    "href": "units/unit12.html",
+    "title": "12) Bindings and Environments",
     "section": "",
-    "text": "Email: gastonsanchez [at] berkeley [dot] edu\nYou should limit your emails to serious problems that cannot be addressed during office hours or via Ed. The vast majority of questions can be answered during OH and/or Ed. Email should not be used for information that is readily available in course materials (syllabus, discussion forum, announcements, etc.) or from fellow students.\nI do not explain course material over email and will not respond to emails with such requests. Please use office hours, or discussion section, (or schedule another time to meet with the teaching staff if you have irreconcilable conflicts with the office hours).",
+    "text": "This week we go down a technical rabbit hole to learn three important concepts. First, we discuss how R differentiates between names and values. Second, we talk about the so-called copy-on-modify policy which is what R uses to decide when a copy of an object needs to be made. And third, we briefly review environments which are basically the data structure that powers scoping. Understanding all these notions will be helpful in our last week when we get to talk about performance and memory usage of R code.",
     "crumbs": [
-      "Other",
-      "Email"
+      "Units",
+      "12) Bindings and Environments"
     ]
   },
   {
-    "objectID": "email.html#reading-and-responding-email",
-    "href": "email.html#reading-and-responding-email",
-    "title": "Communication via Email",
-    "section": "Reading and responding email",
-    "text": "Reading and responding email\nFor general emails, I will reply to general questions or concerns within 2 to 3 business days, Monday through Friday, during regular academic hours (9:00AM-5:00PM).\nPlease note that I do not read email between 5pm and 9am, or during the weekends. Likewise, I do not respond to emails on the weekend.\nex. If you send an email at 6pm on Friday night, you can expect that I will read it around 9am on Monday morning, and should likely receive a response by around 9am on Tuesday morning.\nIf, for any reason, I haven’t responded to your email after four business days, please email me again. I am human, and there are times when student emails fall through the cracks inadvertently.\nI prefer to have conversations in person rather than via email, thus allowing us to get to know each other better and fostering a more collegial learning atmosphere.",
+    "objectID": "units/unit12.html#names-values-and-environments",
+    "href": "units/unit12.html#names-values-and-environments",
+    "title": "12) Bindings and Environments",
+    "section": "",
+    "text": "This week we go down a technical rabbit hole to learn three important concepts. First, we discuss how R differentiates between names and values. Second, we talk about the so-called copy-on-modify policy which is what R uses to decide when a copy of an object needs to be made. And third, we briefly review environments which are basically the data structure that powers scoping. Understanding all these notions will be helpful in our last week when we get to talk about performance and memory usage of R code.",
     "crumbs": [
-      "Other",
-      "Email"
+      "Units",
+      "12) Bindings and Environments"
     ]
   },
   {
-    "objectID": "email.html#communicate-in-a-professional-manner",
-    "href": "email.html#communicate-in-a-professional-manner",
-    "title": "Communication via Email",
-    "section": "Communicate in a professional manner",
-    "text": "Communicate in a professional manner\nIf you believe your situation warrants an email, please feel free to send me a professional email. E-mail communication should be courteous and respectful in manner and tone. Please do not send e-mails that are curt or demanding.\nHere’s a short example of an unprofessional email. Let’s assume you missed a quiz, for whatever reason. Do not write and say: “I missed a quiz. When can I make it up?” Instead, explain why you have extenuating circumstances, and ask the teaching staff if they will allow you to make up the quiz. Most likely you won’t be able to make it up, but at least you are asking in a professional way.\nIf you are unsure of how to write an email to me or any other professor, please consult this amusing blog post that gives you a useful template:\nhttps://medium.com/@lportwoodstacer/how-to-email-your-professor-without-being-annoying-af-cf64ae0e4087",
+    "objectID": "units/unit12.html#slides",
+    "href": "units/unit12.html#slides",
+    "title": "12) Bindings and Environments",
+    "section": "📰 Slides",
+    "text": "📰 Slides\n12-names-values-environments.pdf",
     "crumbs": [
-      "Other",
-      "Email"
+      "Units",
+      "12) Bindings and Environments"
     ]
   },
   {
-    "objectID": "email.html#subject-line",
-    "href": "email.html#subject-line",
-    "title": "Communication via Email",
-    "section": "Subject line",
-    "text": "Subject line\nIf you wish for your email to make it into my inbox, do not leave the subject line blank. Instead, make sure the subject of your email contains the code course and a brief explanation of the nature of the email. For example: “Stat 33B-Question about Homework” or “Stat 33B-Request for Meeting”.",
+    "objectID": "units/unit12.html#objectives",
+    "href": "units/unit12.html#objectives",
+    "title": "12) Bindings and Environments",
+    "section": "🎯 Objectives",
+    "text": "🎯 Objectives\nAt the end of this week you will be able to:\n\nDescribe the distinction between names and values\nExplain how &lt;- creates a binding, or reference, between a name and a value\nProvide an example of copy-on-modify policy\nDescribe the basic properties of an environment and their special purposes",
     "crumbs": [
-      "Other",
-      "Email"
+      "Units",
+      "12) Bindings and Environments"
     ]
   },
   {
-    "objectID": "email.html#avoid-these-subjects",
-    "href": "email.html#avoid-these-subjects",
-    "title": "Communication via Email",
-    "section": "Avoid these subjects",
-    "text": "Avoid these subjects\n\nAvoid emailing me to explain why you missed or will miss class. I usually don’t need to know. If you think this can affect your performance, then schedule a meeting with me.\nDo not email me to let me know you made a mistake in your submitted assignment. Please refer to the HW policies (see syllabus).\nDo not email me to ask for extra credit. Here’s why: https://marktomforde.com/academic/undergraduates/NoExtraCredit.html\nAbove all, do not email me to engage in grade grubbing. Here’s why: https://marktomforde.com/academic/undergraduates/GradeGrubbing.html",
+    "objectID": "units/unit12.html#reading",
+    "href": "units/unit12.html#reading",
+    "title": "12) Bindings and Environments",
+    "section": "📚 Reading",
+    "text": "📚 Reading\n\nhttps://adv-r.hadley.nz/names-values.html\nhttps://adv-r.hadley.nz/environments.html",
     "crumbs": [
-      "Other",
-      "Email"
+      "Units",
+      "12) Bindings and Environments"
     ]
   },
   {
-    "objectID": "email.html#scheduling-a-meeting",
-    "href": "email.html#scheduling-a-meeting",
-    "title": "Communication via Email",
-    "section": "Scheduling a meeting",
-    "text": "Scheduling a meeting\nIf you wish to schedule a meeting with me, your message should include at least two times when you would like to meet and a brief (one-two sentence) description of the reason for the meeting.",
+    "objectID": "units/unit11.html",
+    "href": "units/unit11.html",
+    "title": "11) Functions",
+    "section": "",
+    "text": "This week we review the syntax used by R for writing functions.",
     "crumbs": [
-      "Other",
-      "Email"
+      "Units",
+      "11) Functions"
     ]
   },
   {
-    "objectID": "email.html#emails-regarding-letters-of-recommendation",
-    "href": "email.html#emails-regarding-letters-of-recommendation",
-    "title": "Communication via Email",
-    "section": "Emails regarding letters of recommendation",
-    "text": "Emails regarding letters of recommendation\nOne-unit courses do not provide me with enough information about students to write a strong letter of recommendation. Therefore, I am unwilling to provide a letter based on your work on this course alone.",
+    "objectID": "units/unit11.html#lecture",
+    "href": "units/unit11.html#lecture",
+    "title": "11) Functions",
+    "section": "",
+    "text": "This week we review the syntax used by R for writing functions.",
     "crumbs": [
-      "Other",
-      "Email"
+      "Units",
+      "11) Functions"
+    ]
+  },
+  {
+    "objectID": "units/unit11.html#slides",
+    "href": "units/unit11.html#slides",
+    "title": "11) Functions",
+    "section": "📰 Slides",
+    "text": "📰 Slides\n11-functions.pdf",
+    "crumbs": [
+      "Units",
+      "11) Functions"
+    ]
+  },
+  {
+    "objectID": "units/unit11.html#objectives",
+    "href": "units/unit11.html#objectives",
+    "title": "11) Functions",
+    "section": "🎯 Objectives",
+    "text": "🎯 Objectives\nAt the end of this week you will be able to:\n\nDescribe the main parts of a function in R (i.e. anatomy of a function)\nGive a simple example for creating a function\nExplain the difference between positional arguments, and named arguments\nProvide an example for creating a “binary operator” (or infix) function",
+    "crumbs": [
+      "Units",
+      "11) Functions"
+    ]
+  },
+  {
+    "objectID": "units/unit11.html#reading",
+    "href": "units/unit11.html#reading",
+    "title": "11) Functions",
+    "section": "📚 Reading",
+    "text": "📚 Reading\n\nhttps://www.gastonsanchez.com/R-coding-basics/5-01-functions-intro.html\nhttps://www.gastonsanchez.com/R-coding-basics/5-06-more-functions.html\nhttps://adv-r.hadley.nz/functions.html",
+    "crumbs": [
+      "Units",
+      "11) Functions"
+    ]
+  },
+  {
+    "objectID": "units/unit14.html",
+    "href": "units/unit14.html",
+    "title": "14) Performance",
+    "section": "",
+    "text": "This week we review more underlying principles that have to do with performance in R.",
+    "crumbs": [
+      "Units",
+      "14) Performance"
+    ]
+  },
+  {
+    "objectID": "units/unit14.html#performance-and-profiling",
+    "href": "units/unit14.html#performance-and-profiling",
+    "title": "14) Performance",
+    "section": "",
+    "text": "This week we review more underlying principles that have to do with performance in R.",
+    "crumbs": [
+      "Units",
+      "14) Performance"
+    ]
+  },
+  {
+    "objectID": "units/unit14.html#slides",
+    "href": "units/unit14.html#slides",
+    "title": "14) Performance",
+    "section": "📰 Slides",
+    "text": "📰 Slides\n14-performance-profiling.pdf",
+    "crumbs": [
+      "Units",
+      "14) Performance"
+    ]
+  },
+  {
+    "objectID": "units/unit14.html#objectives",
+    "href": "units/unit14.html#objectives",
+    "title": "14) Performance",
+    "section": "🎯 Objectives",
+    "text": "🎯 Objectives\nAt the end of this week you will be able to:\n\nProvide an example of copy-on-modify policy.\nApply the function system.time() to time commands in R.\nApply yhe function Rprof() and summaryRprof() to profile code in R.",
+    "crumbs": [
+      "Units",
+      "14) Performance"
+    ]
+  },
+  {
+    "objectID": "units/unit14.html#reading",
+    "href": "units/unit14.html#reading",
+    "title": "14) Performance",
+    "section": "📚 Reading",
+    "text": "📚 Reading\n\nhttp://adv-r.had.co.nz/Performance.html\nhttps://adv-r.hadley.nz/perf-measure.html",
+    "crumbs": [
+      "Units",
+      "14) Performance"
+    ]
+  },
+  {
+    "objectID": "units/unit14.html#lab",
+    "href": "units/unit14.html#lab",
+    "title": "14) Performance",
+    "section": "🔬 Lab",
+    "text": "🔬 Lab\nPractice measuring performance.",
+    "crumbs": [
+      "Units",
+      "14) Performance"
     ]
   },
   {
@@ -572,266 +780,80 @@
     ]
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "email.html",
+    "href": "email.html",
+    "title": "Communication via Email",
     "section": "",
-    "text": "Info\n\n\n\nInstructor: Gaston Sanchez\nLecture: Wed 2pm-3pm in Latimer 120\nLab:\n\nLab 101, Fri 9am-10am, Evans 342 (GSI Brian)\nLab 102, Fri 10am-11am, Evans 342 (GSI Brian)\nLab 103, Fri 1pm-2pm, Evans 342 (GSI Brian)\nLab 104, Fri 2pm-3pm, Evans 342 (GSI Brian)\n\nCode #: 23941\nUnits: 1\nFinal Exam: Thr Dec-18th, 3pm-6pm, location TBD.\nThis course introduces the R statistical software to students with minimal prior exposure to programming.\nThe course aims to prepare students to carry out a basic data analysis and to write simple functions. The focus is on the computational model that underlies the R language with the goal of providing a foundation for further coding.",
-    "crumbs": [
-      "About"
-    ]
-  },
-  {
-    "objectID": "about.html#more-information",
-    "href": "about.html#more-information",
-    "title": "About",
-    "section": "More Information",
-    "text": "More Information\n\nSchedule\nSyllabus\nStaff\nCommunication via email\nEd Netiquette\nQ&As",
-    "crumbs": [
-      "About"
-    ]
-  },
-  {
-    "objectID": "staff.html",
-    "href": "staff.html",
-    "title": "Staff",
-    "section": "",
-    "text": "Append @berkeley.edu to all email addresses.\nOffice hours are subject to change.\nYou can attend OH of any staff member.\n\n\n\nInstructor: Gaston Sanchez gastonsanchez Office hours:  - TBD, Evans 309\nTutor: Assmaa Aziz tbd Office hours:  - TBD, Evans TBD\n\n\nGSI: Brian Fernando bmfernan Office hours: - TBD, Evans TBD",
+    "text": "Email: gastonsanchez [at] berkeley [dot] edu\nYou should limit your emails to serious problems that cannot be addressed during office hours or via Ed. The vast majority of questions can be answered during OH and/or Ed. Email should not be used for information that is readily available in course materials (syllabus, discussion forum, announcements, etc.) or from fellow students.\nI do not explain course material over email and will not respond to emails with such requests. Please use office hours, or discussion section, (or schedule another time to meet with the teaching staff if you have irreconcilable conflicts with the office hours).",
     "crumbs": [
       "Other",
-      "Staff"
+      "Email"
     ]
   },
   {
-    "objectID": "license.html",
-    "href": "license.html",
-    "title": "License",
-    "section": "",
-    "text": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International\nThis work is licensed under CC BY-NC-SA 4.0\n\n\n\nShare: copy and redistribute the material in any medium or format.\nAdapt: remix, transform, and build upon the material.\nThe licensor cannot revoke these freedoms as long as you follow the license terms.\n\n\n\n\n\nAttribution: You must give appropriate credit , provide a link to the license, and indicate if changes were made . You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.\nNonCommercial: You may not use the material for commercial purposes.\nShareAlike: If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.\nNo additional restrictions: You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.\n\nFor more information, see CC BY-NC-SA 4.0",
+    "objectID": "email.html#reading-and-responding-email",
+    "href": "email.html#reading-and-responding-email",
+    "title": "Communication via Email",
+    "section": "Reading and responding email",
+    "text": "Reading and responding email\nFor general emails, I will reply to general questions or concerns within 2 to 3 business days, Monday through Friday, during regular academic hours (9:00AM-5:00PM).\nPlease note that I do not read email between 5pm and 9am, or during the weekends. Likewise, I do not respond to emails on the weekend.\nex. If you send an email at 6pm on Friday night, you can expect that I will read it around 9am on Monday morning, and should likely receive a response by around 9am on Tuesday morning.\nIf, for any reason, I haven’t responded to your email after four business days, please email me again. I am human, and there are times when student emails fall through the cracks inadvertently.\nI prefer to have conversations in person rather than via email, thus allowing us to get to know each other better and fostering a more collegial learning atmosphere.",
     "crumbs": [
       "Other",
-      "License"
+      "Email"
     ]
   },
   {
-    "objectID": "license.html#cc-by-nc-sa-4.0",
-    "href": "license.html#cc-by-nc-sa-4.0",
-    "title": "License",
-    "section": "",
-    "text": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International\nThis work is licensed under CC BY-NC-SA 4.0\n\n\n\nShare: copy and redistribute the material in any medium or format.\nAdapt: remix, transform, and build upon the material.\nThe licensor cannot revoke these freedoms as long as you follow the license terms.\n\n\n\n\n\nAttribution: You must give appropriate credit , provide a link to the license, and indicate if changes were made . You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.\nNonCommercial: You may not use the material for commercial purposes.\nShareAlike: If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.\nNo additional restrictions: You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.\n\nFor more information, see CC BY-NC-SA 4.0",
+    "objectID": "email.html#communicate-in-a-professional-manner",
+    "href": "email.html#communicate-in-a-professional-manner",
+    "title": "Communication via Email",
+    "section": "Communicate in a professional manner",
+    "text": "Communicate in a professional manner\nIf you believe your situation warrants an email, please feel free to send me a professional email. E-mail communication should be courteous and respectful in manner and tone. Please do not send e-mails that are curt or demanding.\nHere’s a short example of an unprofessional email. Let’s assume you missed a quiz, for whatever reason. Do not write and say: “I missed a quiz. When can I make it up?” Instead, explain why you have extenuating circumstances, and ask the teaching staff if they will allow you to make up the quiz. Most likely you won’t be able to make it up, but at least you are asking in a professional way.\nIf you are unsure of how to write an email to me or any other professor, please consult this amusing blog post that gives you a useful template:\nhttps://medium.com/@lportwoodstacer/how-to-email-your-professor-without-being-annoying-af-cf64ae0e4087",
     "crumbs": [
       "Other",
-      "License"
+      "Email"
     ]
   },
   {
-    "objectID": "syllabus.html",
-    "href": "syllabus.html",
-    "title": "Syllabus",
-    "section": "",
-    "text": "STAT 33B is a course designed primarily for those who are already familiar with programming in another language (e.g. Python, C, Java), and want to understand how R works, and for those who already know the basics of R programming and want to gain a more in-depth understanding of the language in order to improve their coding.\nThe focus is on the underlying paradigms in R, such as atomic and non-atomic vectors, functional programming, environments, and object systems (time permitting).\nThe goal of this course is to better understand programming principles in R and to write better R code that capitalizes on the language’s design.\nTopics include (not necessarily covered in the following order):\n\n🔠 data types and data structures in R (e.g. vectors, arrays, lists, data frames)\n🔨 Tools for data manipulation\n📊 Tools for data visualization\n📥 Data input/output\n📝 Writing simple functions\n🔀 Control flow structures (e.g. conditionals, iterations)\n📑 Argument matching\n📢 Function calls\n➕ The formula language of R (time permitting)",
+    "objectID": "email.html#subject-line",
+    "href": "email.html#subject-line",
+    "title": "Communication via Email",
+    "section": "Subject line",
+    "text": "Subject line\nIf you wish for your email to make it into my inbox, do not leave the subject line blank. Instead, make sure the subject of your email contains the code course and a brief explanation of the nature of the email. For example: “Stat 33B-Question about Homework” or “Stat 33B-Request for Meeting”.",
     "crumbs": [
-      "Syllabus"
+      "Other",
+      "Email"
     ]
   },
   {
-    "objectID": "syllabus.html#description",
-    "href": "syllabus.html#description",
-    "title": "Syllabus",
-    "section": "",
-    "text": "STAT 33B is a course designed primarily for those who are already familiar with programming in another language (e.g. Python, C, Java), and want to understand how R works, and for those who already know the basics of R programming and want to gain a more in-depth understanding of the language in order to improve their coding.\nThe focus is on the underlying paradigms in R, such as atomic and non-atomic vectors, functional programming, environments, and object systems (time permitting).\nThe goal of this course is to better understand programming principles in R and to write better R code that capitalizes on the language’s design.\nTopics include (not necessarily covered in the following order):\n\n🔠 data types and data structures in R (e.g. vectors, arrays, lists, data frames)\n🔨 Tools for data manipulation\n📊 Tools for data visualization\n📥 Data input/output\n📝 Writing simple functions\n🔀 Control flow structures (e.g. conditionals, iterations)\n📑 Argument matching\n📢 Function calls\n➕ The formula language of R (time permitting)",
+    "objectID": "email.html#avoid-these-subjects",
+    "href": "email.html#avoid-these-subjects",
+    "title": "Communication via Email",
+    "section": "Avoid these subjects",
+    "text": "Avoid these subjects\n\nAvoid emailing me to explain why you missed or will miss class. I usually don’t need to know. If you think this can affect your performance, then schedule a meeting with me.\nDo not email me to let me know you made a mistake in your submitted assignment. Please refer to the HW policies (see syllabus).\nDo not email me to ask for extra credit. Here’s why: https://marktomforde.com/academic/undergraduates/NoExtraCredit.html\nAbove all, do not email me to engage in grade grubbing. Here’s why: https://marktomforde.com/academic/undergraduates/GradeGrubbing.html",
     "crumbs": [
-      "Syllabus"
+      "Other",
+      "Email"
     ]
   },
   {
-    "objectID": "syllabus.html#mode-of-instruction",
-    "href": "syllabus.html#mode-of-instruction",
-    "title": "Syllabus",
-    "section": "🏫 Mode of Instruction",
-    "text": "🏫 Mode of Instruction\nThis semester STAT 33B is structured as a flipped class, meaning that you will gain initial exposure to new concepts before class (mostly in the form of slides and suggested readings) and then apply that knowledge through activities like discussions, problem-solving, and coding during class-and-lab time, as well as outside the classroom.\nBefore Class. It is your responsibility to become familiar with the topics that appear in the slides sections. Optionally, you may want to review the recommended readings. Likewise, there will be ungraded practice coding exercises in case you want apply your knowledge or test your understanding of the weekly concepts.\nDuring class on Wed. Class time will be spent on live demos to illustrate R programming concepts with some small, yet real-life, examples. Do not be surprised or worried about not following the details of R code during class – that is not the point (furthermore, there will sometimes be code that is really specific to the instructional purposes of the lecture, e.g. to make a specific plot, and is beyond the scope of what you would be expected to understand how to do yourself). Commented demo files will be shared in bCourses right after class, or one day after class.\nDuring Section on Fri. Lab time will be dedicated to apply your knowledge by working through questions (in the format of printed worksheets) solo or in groups, and also to start working on the weekly coding assignment.\nAfter Section. You will keep working on the weekly homework (coding) assignment. These assignments are typically extensions of the examples discussed in lecture. However, assignments will sometimes ask you to learn about a topic related to but not covered in lecture/lab.",
+    "objectID": "email.html#scheduling-a-meeting",
+    "href": "email.html#scheduling-a-meeting",
+    "title": "Communication via Email",
+    "section": "Scheduling a meeting",
+    "text": "Scheduling a meeting\nIf you wish to schedule a meeting with me, your message should include at least two times when you would like to meet and a brief (one-two sentence) description of the reason for the meeting.",
     "crumbs": [
-      "Syllabus"
+      "Other",
+      "Email"
     ]
   },
   {
-    "objectID": "syllabus.html#ℹ-prerequisites",
-    "href": "syllabus.html#ℹ-prerequisites",
-    "title": "Syllabus",
-    "section": "ℹ️ Prerequisites",
-    "text": "ℹ️ Prerequisites\nAlthough this course does not have any prerequisites, the curriculum and format are designed specifically for students who have previous programming experience. Students with no or minimal programming experience should not be taking this course; instead they should consider other courses such as STAT 33A Introduction to Programming in R or BJC The Beauty and Joy of Computing. BTW: you don’t need to have taken an introductory course in statistics.",
+    "objectID": "email.html#emails-regarding-letters-of-recommendation",
+    "href": "email.html#emails-regarding-letters-of-recommendation",
+    "title": "Communication via Email",
+    "section": "Emails regarding letters of recommendation",
+    "text": "Emails regarding letters of recommendation\nOne-unit courses do not provide me with enough information about students to write a strong letter of recommendation. Therefore, I am unwilling to provide a letter based on your work on this course alone.",
     "crumbs": [
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "syllabus.html#textbooks",
-    "href": "syllabus.html#textbooks",
-    "title": "Syllabus",
-    "section": "📚 Textbooks",
-    "text": "📚 Textbooks\nThis course does not have an “official” textbook although weekly readings will be assigned from the following books:\n\nR Coding Basics (by G. Sanchez). https://www.gastonsanchez.com/R-coding-basics\nAdvanced R, 2nd Edition (by H. Wickham). https://adv-r.hadley.nz\nR for Data Science (by H. Wickham & G. Grolemund). https://r4ds.had.co.nz\nHands-On Programming with R (by G. Grolemund). https://rstudio-education.github.io/hopr",
-    "crumbs": [
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "syllabus.html#expectations",
-    "href": "syllabus.html#expectations",
-    "title": "Syllabus",
-    "section": "🤞 Expectations",
-    "text": "🤞 Expectations\nThis is a programming course rather than a math or statistics course. Programming is a broad topic, so it’s not possible for lecture to provide you with a specific recipe for every situation you may encounter. Instead, one of the goals of this class is to help you become comfortable reading R code, and understanding its underlying working principles, as well as its documentation.\nWe don’t expect you to become an R expert. That takes YEARS of practice and learning. Instead, we want to give you a good foundation to understand R’s programming language.",
-    "crumbs": [
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "syllabus.html#course-culture",
-    "href": "syllabus.html#course-culture",
-    "title": "Syllabus",
-    "section": "🏫 Course Culture",
-    "text": "🏫 Course Culture\nStudents taking Stat 33B come from a wide range of backgrounds. We hope to foster an inclusive and supportive learning environment based on curiosity rather than competition. All members of the course community—the instructor, GSI, students, and readers—are expected to treat each other with courtesy and respect.\nYou will be interacting with course staff and fellow students in several different environments: in class, in lab, over the discussion forum, and in office hours. Some of these will be in person, some of them will be online, but the same expectations hold: be kind, be respectful, be professional.\nIf you are concerned about classroom environment issues created by other students or course staff, please come talk to us about it.",
-    "crumbs": [
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "syllabus.html#waitlisted-students-and-late-joining",
-    "href": "syllabus.html#waitlisted-students-and-late-joining",
-    "title": "Syllabus",
-    "section": "⏳ Waitlisted Students and Late Joining",
-    "text": "⏳ Waitlisted Students and Late Joining\nWe will not be offering extensions if you are admitted or enrolled into the course later. So it is your responsibility to stay up to date on the assignments. With that said, please keep in mind our policies for Participation and HW (see sections below).\nUnfortunately, doing all the work is not a guarantee of enrollment. You will only be enrolled if there is space in your lab. Enrollment will proceed by CalCentral.",
-    "crumbs": [
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "syllabus.html#participation-12-of-final-grade",
-    "href": "syllabus.html#participation-12-of-final-grade",
-    "title": "Syllabus",
-    "section": "📝 Participation (12% of final grade)",
-    "text": "📝 Participation (12% of final grade)\n\nAttending section every week is an essential part of the course and you will be provided with printed worksheets to apply your knowledge by working through questions solo or in groups, and also to start working on the weekly coding assignments.\nYou must attend the lab section you are officially enrolled in.\nWorksheets will be handed-out during section.\nThey consist of questions to check your understanding from the slides you have to read before each lecture.\nRegardless of whether you work solo or in groups, you must turn in your answered worksheet at the end of section (i.e. individual submission).\nTurned-in worksheets will be graded credit / no-credit for completion where full credit is given if you earnestly engage with the assignment (that is, put in a good effort to complete the problems).\nSolutions will be posted on bCourses one day after lab discussion.\nBecause we won’t give worksheets back, we suggest that you take a picture or scan them so that you can compare your answers with the solutions.\nThe first worksheet will not count towards your participation score. From the remaining worksheets, your lowest 2 scores will be dropped in the calculation of your overall grade.",
-    "crumbs": [
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "syllabus.html#homework-48-of-final-grade",
-    "href": "syllabus.html#homework-48-of-final-grade",
-    "title": "Syllabus",
-    "section": "📁 Homework (48% of final grade)",
-    "text": "📁 Homework (48% of final grade)\n\nThere will be weekly homework (coding) assignments.\nThese assignments will typically be extensions of the examples presented during lecture.\nYou will start working on a HW assignment during the second half of section, and will have four more days (Sat, Sun, Mon, Tue) to complete them.\nHW assignments will submitted through bCourses (individual submission).\nHW will be due at 10:50PM on Tuesday after they were assigned in section, and there will be a grace submission period of 10 minutes. See Late Submission Policy below for more information about late submissions.\nYou must write your own answers (using your own words and/or code). Copy and plagiarism will not be tolerated (see Academic Honesty policy).\nIf you don’t submit all required files, you will receive an automatic 10% deduction.\nIf you submit the incorrect files, you will receive no credit.\nThe first HW will not count towards your HW score. From the remaining HW assignments, your 2 lowest scores will be dropped in the calculation of your overall grade.",
-    "crumbs": [
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "syllabus.html#late-policy",
-    "href": "syllabus.html#late-policy",
-    "title": "Syllabus",
-    "section": "🕚 Late Submission Policy",
-    "text": "🕚 Late Submission Policy\nGiven that STAT 33B is a 1-unit course, unless you have applicable DSP accommodations, we won’t be able to offer extensions of any kind.\nIf you cannot turn in a printed worksheet with your handwritten answers (because you did not attend lab, or you forgot to turn the worksheet in), please recall that we are dropping the 2 lowest worksheet scores.\nIn case you are not able to submit a HW assignment on time, our default policy is:\n\nSubmissions within 24 hours after the deadline will receive an 11% deduction.\nSubmissions within 48 hours after the deadline will receive a 22% deduction.\nSubmissions that are 48 hours or more after the deadline will receive no credit.\n\nThis late submission policy is in place to take care of any extenuating circumstances that prevent you from submitting a HW assignment by the due date. In addition, recall that we are dropping the 2 lowest HW scores.\nExtensions for DSP students: If you are enrolled with DSP and have accommodations for assignment extensions, you may request occasional extensions up to 2 days. Please email your GSI, and cc Prof. Sanchez, to make such a request, preferably 2 days before the assignment’s deadline.\nPlease plan ahead and pace yourself. Don’t wait until the last day to do an assignment.  Don’t wait until the last minute to submit your assignments.",
-    "crumbs": [
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "syllabus.html#midterm-10-of-final-grade",
-    "href": "syllabus.html#midterm-10-of-final-grade",
-    "title": "Syllabus",
-    "section": "📄 Midterm (10% of final grade)",
-    "text": "📄 Midterm (10% of final grade)\n\nThere will be one in-person midterm scheduled on Oct-15th.\nThe midterm will take place during class time (Wed, 2-3PM, Latimer 120)",
-    "crumbs": [
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "syllabus.html#final-exam-30-of-final-grade",
-    "href": "syllabus.html#final-exam-30-of-final-grade",
-    "title": "Syllabus",
-    "section": "📝 Final Exam (30% of final grade)",
-    "text": "📝 Final Exam (30% of final grade)\n\nThere will be one in-person final exam.\nTo pass the course, you have to complete the final exam.\nThe final exam will be held on Thursday, Dec-18th, 3pm-6pm, location TBA as scheduled by the University.\nUnless you have accommodations as determined by the university and approved by the instructor, you must take the exam at the date indicated above.\nPlease check your course schedule and make sure that you can take the final exam on the date indicated above. Otherwise, do not take the class if you are not available at this date.",
-    "crumbs": [
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "syllabus.html#grading-structure",
-    "href": "syllabus.html#grading-structure",
-    "title": "Syllabus",
-    "section": "💯 Grading Structure",
-    "text": "💯 Grading Structure\nGrades will be assigned using the following scheme:\n\n12% Lab (2 drops)\n48% HW (2 drops)\n10% Midterm\n30% Final Exam\n\n\nTo complete the course, you must take the final exam.\nTo give you a rough idea of the grading scheme, the assignment of letter grades will be:\n\n😀 90-100% (Excellent) A-/A range\n🙂 80-90% (Good) B-/B/B+ range\n😐 70-80% (Fair) C-/C/C+ range\n🙁 60-70% (Deficient) D\n😞 Below 60% (Failed) F\n\nIf you are taking the class pass-fail, the cut-oﬀ for passing is 70% (C-).\nAs a matter of course policy, I do not round up when calculating letter grades. Ex: if your overall score is 79.9999%, then the highest letter grade that you can expect is a C+, not a B-.\nThere is no curve; your grade will depend only on how well you do, and not on how well everyone else does.\nLetter grades are final; I don’t enter into negotiations with students about grades.\nPlease do not engage in grade grubbing.\nAlso, please remember that we grade your course performance, not your personal worth.",
-    "crumbs": [
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "syllabus.html#generative-a.i.-policy",
-    "href": "syllabus.html#generative-a.i.-policy",
-    "title": "Syllabus",
-    "section": "⚠️ Generative A.I. Policy",
-    "text": "⚠️ Generative A.I. Policy\nGenerative A.I. refers to artificial intelligence technologies, like those used for ChatGPT, Gemini or similar, that can draw on a large corpus of training data to create new written, visual, or audio content.\nThere are two principles we use to guide our class policy on AI use:\n\nCognitive dimension: Working with AI should not reduce your ability to think clearly. The use of AI should facilitate—rather than hinder—learning.\nEthical dimension: Students using AI should be transparent about their use and make sure it aligns with academic integrity.\n\nIn this course, we’ll be developing skills that are important to practice on your own. Because use of generative A.I. may inhibit the development of those skills, the use of these tools is permitted in this course for the following activities:\n\nBrainstorming and refining your ideas;\nChecking syntax errors or bugs in your code; and\nPolishing your spelling and grammar (when applicable).\n\nThe use of generative A.I. tools is not permitted in this course for the following activities:\n\nImpersonating you in classroom contexts, such as by using the tool to compose discussion board prompts assigned to you or content that you put into a discussion forum/chat.\nAttempting to pass off AI-generated work as your own.\nWriting a draft of your assignment.\nWriting entire blocks of code, functions, or scripts to complete class assignments.\n\nIn the event that some of your code is generated by AI, please give credit to the tool(s) you are using.\nIf you are unsure of whether and how much of a submission has been AI-generated, or whether you are in violation of a certain policy, please reach out to us and ask for guidance.",
-    "crumbs": [
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "syllabus.html#academic-honesty",
-    "href": "syllabus.html#academic-honesty",
-    "title": "Syllabus",
-    "section": "☝️ Academic Honesty",
-    "text": "☝️ Academic Honesty\nYou should not share your code or answers, directly or indirectly, with other students. Doing so doesn’t help them; it just sets them up for trouble on exams. Feel free to discuss the problems with others beforehand, but not the solutions. Please complete your own work and keep it to yourself (e.g. avoid sharing it in hosting platforms like Github or similar). If you suspect other people may be plagiarizing you, let us know ASAP.\nWe expect you to do your own work and to uphold the standards of intellectual integrity. Collaborating on homework is fine and we encourage you to work together—but copying is not, nor is having somebody else submit assignments for you. Likewise, obtaining and/or using solutions from previous years or from the internet, if such happen to be available, is considered cheating.\nBeyond the templates or starting code provided by the teaching staff, any writing, code, media, or other submissions not explicitly identified as AI-generated will be assumed as original to the student. Submitting AI-generated work without identifying it as such will be considered a violation of the Code of Student Conduct.\nCheating will not be tolerated. Any evidence of academic misconduct will result in a score of zero (0) on the entire assignment or examination, and a failing letter grade. We will always report incidences of cheating to the Center for Student Conduct.\nIf you are having trouble with an assignment or studying for an exam, or if you are uncertain about permissible and impermissible conduct or collaboration, please contact us.\nRather than copying someone else’s work, ask for help. You are not alone in this course! The course staff is here to help you succeed. If you invest the time to learn the material and complete the projects, you won’t need to copy any answers.",
-    "crumbs": [
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "syllabus.html#email-policy",
-    "href": "syllabus.html#email-policy",
-    "title": "Syllabus",
-    "section": "✉️ Email Policy",
-    "text": "✉️ Email Policy\nIf you wish for your email to make it into our inbox, the subject of your email must contain the text: Stat 33B.\nPlease refer to my email guidelines for more information: communication via email",
-    "crumbs": [
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "syllabus.html#special-accommodations",
-    "href": "syllabus.html#special-accommodations",
-    "title": "Syllabus",
-    "section": "🚸 Special Accommodations",
-    "text": "🚸 Special Accommodations\nStudents needing accommodations for any physical, psychological, or learning disability, should contact the teaching staff during the first two weeks of the semester, and see http://dsp.berkeley.edu to learn about Berkeley’s policy. If you are a DSP student, please contact us at least three weeks prior to a midterm or final so that we can work out acceptable accommodations.\nFor relevant DSP accommodations that provide occasional extensions on assignments, please see the above Late Policy.",
-    "crumbs": [
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "syllabus.html#incomplete-grade",
-    "href": "syllabus.html#incomplete-grade",
-    "title": "Syllabus",
-    "section": "❗Incomplete Grade",
-    "text": "❗Incomplete Grade\nUnder emergency/special circumstances, students may petition me to receive an Incomplete grade. By University policy, for a student to get an Incomplete requires (i) that the student was performing passing-level work until the time that (ii) something happened that—through no fault of the student—prevented the student from completing the coursework. If you take the final, you completed the course, even if you took it while ill, exhausted, mourning, etc.\nThe time to talk to me about incomplete grades is BEFORE you take the final (several weeks before), when the situation that prevents you from finishing the course presents itself. Please clearly state your reasoning in your comments to me.\nIt is your responsibility to develop good time management skills, good studying habits, know your limits, and learn to ask for professional help. Life happens. Social, family, cultural, scholar, and individual circumstances can affect your performance (both positive and negatively). If you find yourself in a situation that raises concerns about passing the course, please contact me as soon as possible.\nAbove all, please-please-please do not wait till the end of the semester to share your concerns about passing the course because it will be too late by then.",
-    "crumbs": [
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "syllabus.html#safe-and-inclusive-environment",
-    "href": "syllabus.html#safe-and-inclusive-environment",
-    "title": "Syllabus",
-    "section": "🌻 Safe and Inclusive Environment",
-    "text": "🌻 Safe and Inclusive Environment\nWhenever a faculty member, staff member, post-doc, or GSI is responsible for the supervision of a student, a personal relationship between them of a romantic or sexual nature, even if consensual, is against university policy. Any such relationship jeopardizes the integrity of the educational process.\nAlthough faculty and staff can act as excellent resources for students, you should be aware that they are required to report any violations of this campus policy. If you wish to have a confidential discussion on matters related to this policy, you may contact the Confidential Care Advocates on campus for support related to counseling or sensitive issues. Appointments can be made by calling (510) 642-1988.\nThe classroom, lab, and work place should be safe and inclusive environments for everyone. The Office for the Prevention of Harassment and Discrimination (OPHD) is responsible for ensuring the University provides an environment for faculty, staff and students that is free from discrimination and harassment on the basis of categories including race, color, national origin, age, sex, gender, gender identity, and sexual orientation. Questions or concerns? Call (510) 643-7985, email ask_ophd@berkeley.edu, or go to https://svsh.berkeley.edu/.",
-    "crumbs": [
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "syllabus.html#last-but-not-least",
-    "href": "syllabus.html#last-but-not-least",
-    "title": "Syllabus",
-    "section": "🎉 Last But Not Least",
-    "text": "🎉 Last But Not Least\nThe main goal of STAT 33B is that you should learn, and have a fantastic experience doing so. Please keep that goal in mind throughout the semester.",
-    "crumbs": [
-      "Syllabus"
+      "Other",
+      "Email"
     ]
   },
   {
@@ -852,127 +874,6 @@
     "text": "Schedule 📅\nTentative calendar subject to change.\n\nWeek 1\n\n   \n   \n   \n   \n   \n     \n  \n          \n  \n  \n  \n             \n             \n             About\n             \n             \n               Overview  Unit 1: Introduction\n             \n             \n                \n             \n                  \n             \n          \n  \n  \n  \n             \n             \n             \n               Slides  Starting with R and RStudio (pdf) \n             \n             \n               A bit of history about R (pdf)\n              \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Aug 27\n             \n             \n               Lecture  Course Policies, Syllabus, etc\n             \n             \n                \n             \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Aug 29\n             \n             \n               Worksheet  WS 1: Introduction (in section)\n             \n             \n                \n             \n                  \n             \n          \n  \n  \n  \n             \n             \n             \n               Homework  HW 1: Quarto notebooks (due 9/02)\n             \n             \n                \n             \n                  \n             \n          \n     \n     \n  \n   \n  \n\n   Week 2\n\n   \n   \n   \n   \n   \n     \n  \n          \n  \n  \n  \n             \n             \n             About\n             \n             \n               Overview  Unit 2: Vectors and factors\n             \n             \n                \n             \n                  \n             \n          \n  \n  \n  \n             \n             \n             \n               Slides  Introduction to Vectors (pdf)\n             \n             \n               Subsetting Vectors (pdf)\n              \n                  \n             \n          \n  \n  \n  \n             \n             \n             \n               Additional  Introduction to Factors (pdf)\n             \n             \n                \n             \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Sep 3\n             \n             \n               Lecture  A Bit of Financial Math\n             \n             \n                \n             \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Sep 5\n             \n             \n               Worksheet  WS 2: Vectors and Factors (in section)\n             \n             \n                \n             \n                  \n             \n          \n  \n  \n  \n             \n             \n             \n               Homework  HW 2: Vectors (avail due 9/09)\n             \n             \n                \n             \n                  \n             \n          \n     \n     \n  \n   \n  \n\n   Week 3\n\n   \n   \n   \n   \n   \n     \n  \n          \n  \n  \n  \n             \n             \n             About\n             \n             \n               Overview  Unit 3: Matrices and Lists\n             \n             \n                \n             \n                  \n             \n          \n  \n  \n  \n             \n             \n             \n               Slides  Matrices (pdf)\n             \n             \n               Lists (pdf)\n              \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Sep 10\n             \n             \n               Lecture  A Bit of Matrix Decompositions\n             \n             \n                \n             \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Sep 12\n             \n             \n               Worksheet  WS 3: Matrices and Lists (in section)\n             \n             \n                \n             \n                  \n             \n          \n  \n  \n  \n             \n             \n             \n               Homework  HW 3: Matrices and Lists (due 9/16)\n             \n             \n                \n             \n                  \n             \n          \n     \n     \n  \n   \n  \n\n   Week 4\n\n   \n   \n   \n   \n   \n     \n  \n          \n  \n  \n  \n             \n             \n             About\n             \n             \n               Overview  Unit 4: Data Frames\n             \n             \n                \n             \n                  \n             \n          \n  \n  \n  \n             \n             \n             \n               Slides  Data Frames (pdf)\n             \n             \n               Importing Tables (pdf)\n              \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Sep 17\n             \n             \n               Lecture  Data Frames and Tables\n             \n             \n                \n             \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Sep 19\n             \n             \n               Worksheet  WS 4: Data Frames (in section)\n             \n             \n                \n             \n                  \n             \n          \n  \n  \n  \n             \n             \n             \n               Homework  HW 4: Data Frames (due 9/23)\n             \n             \n                \n             \n                  \n             \n          \n     \n     \n  \n   \n  \n\n   Week 5\n\n   \n   \n   \n   \n   \n     \n  \n          \n  \n  \n  \n             \n             \n             About\n             \n             \n               Overview  Unit 5: Tidyverse part 1\n             \n             \n                \n             \n                  \n             \n          \n  \n  \n  \n             \n             \n             \n               Slides  Intro to dplyr (pdf)\n             \n             \n                \n             \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Sep 24\n             \n             \n               Lecture  Climate Change Excessive Heat\n             \n             \n                \n             \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Sep 26\n             \n             \n               Worksheet  WS 5: tidyverse (in section)\n             \n             \n                \n             \n                  \n             \n          \n  \n  \n  \n             \n             \n             \n               Homework  HW 5: Tidyverse 1 (due 9/30)\n             \n             \n                \n             \n                  \n             \n          \n     \n     \n  \n   \n  \n\n   Week 6\n\n   \n   \n   \n   \n   \n     \n  \n          \n  \n  \n  \n             \n             \n             About\n             \n             \n               Overview  Unit 6: Tidyverse part 2\n             \n             \n                \n             \n                  \n             \n          \n  \n  \n  \n             \n             \n             \n               Slides  Climate Change Excessive Heat (cont'd)\n             \n             \n                \n             \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Oct 1\n             \n             \n               Lecture  Tables & dplyr\n             \n             \n                \n             \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Oct 3\n             \n             \n               Worksheet  WS 6: dplyr (in section)\n             \n             \n                \n             \n                  \n             \n          \n  \n  \n  \n             \n             \n             \n               Homework  HW 6: Tidyverse 2 (due 10/7)\n             \n             \n                \n             \n                  \n             \n          \n     \n     \n  \n   \n  \n\n   Week 7\n\n   \n   \n   \n   \n   \n     \n  \n          \n  \n  \n  \n             \n             \n             About\n             \n             \n               Overview  Unit 7: Tidyverse part 3\n             \n             \n                \n             \n                  \n             \n          \n  \n  \n  \n             \n             \n             \n               Slides  None\n             \n             \n                \n             \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Oct 8\n             \n             \n               Lecture  Choropleth Maps\n             \n             \n                \n             \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Oct 10\n             \n             \n               Worksheet  WS 7: ggplot (in section)\n             \n             \n                \n             \n                  \n             \n          \n  \n  \n  \n             \n             \n             \n               Homework  HW 7: Tidyverse 3 (due 10/21)\n             \n             \n                \n             \n                  \n             \n          \n     \n     \n  \n   \n  \n\n   Week 8\n\n   \n   \n   \n   \n   \n     \n  \n          \n  \n  \n  \n             \n             \n             About\n             \n             \n               Overview  Unit 8: Midterm\n             \n             \n                \n             \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Oct 15\n             \n             \n               Midterm  Midterm Test\n             \n             \n                \n             \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Oct 17\n             \n             \n               Worksheet  WS 8: TBD (in section)\n             \n             \n                \n             \n                  \n             \n          \n  \n  \n  \n             \n             \n             \n               Homework  No HW 8\n             \n             \n                \n             \n                  \n             \n          \n     \n     \n  \n   \n  \n\n   Week 9\n\n   \n   \n   \n   \n   \n     \n  \n          \n  \n  \n  \n             \n             \n             About\n             \n             \n               Overview  Unit 9: Conditional Statements\n             \n             \n                \n             \n                  \n             \n          \n  \n  \n  \n             \n             \n             \n               Slides  Conditionals (pdf)\n             \n             \n                \n             \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Oct 22\n             \n             \n               Lecture  Conditional Statements\n             \n             \n                \n             \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Oct 24\n             \n             \n               Worksheet  WS 9: Conditionals (in section)\n             \n             \n                \n             \n                  \n             \n          \n  \n  \n  \n             \n             \n             \n               Homework  HW 9: Conditionals (due 10/28)\n             \n             \n                \n             \n                  \n             \n          \n     \n     \n  \n   \n  \n\n   Week 10\n\n   \n   \n   \n   \n   \n     \n  \n          \n  \n  \n  \n             \n             \n             About\n             \n             \n               Overview  Unit 10: Iterations\n             \n             \n                \n             \n                  \n             \n          \n  \n  \n  \n             \n             \n             \n               Slides  Iterations and Loops (pdf)\n             \n             \n                \n             \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Oct 29\n             \n             \n               Lecture  Iterations and Loops\n             \n             \n                \n             \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Oct 31\n             \n             \n               Worksheet  WS 10: Iterations (in section)\n             \n             \n                \n             \n                  \n             \n          \n  \n  \n  \n             \n             \n             \n               Homework  HW 10: Iterations (due 11/04)\n             \n             \n                \n             \n                  \n             \n          \n     \n     \n  \n   \n  \n\n   Week 11\n\n   \n   \n   \n   \n   \n     \n  \n          \n  \n  \n  \n             \n             \n             About\n             \n             \n               Overview  Unit 11: Functions\n             \n             \n                \n             \n                  \n             \n          \n  \n  \n  \n             \n             \n             \n               Slides  Functions (pdf)\n             \n             \n                \n             \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Nov 5\n             \n             \n               Lecture  About R functions\n             \n             \n                \n             \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Nov 7\n             \n             \n               Worksheet  WS 11: Functions (in section)\n             \n             \n                \n             \n                  \n             \n          \n  \n  \n  \n             \n             \n             \n               Homework  HW 11: Functions (due 11/11)\n             \n             \n                \n             \n                  \n             \n          \n     \n     \n  \n   \n  \n\n   Week 12\n\n   \n   \n   \n   \n   \n     \n  \n          \n  \n  \n  \n             \n             \n             About\n             \n             \n               Overview  Unit 12: Bindings and Environments\n             \n             \n                \n             \n                  \n             \n          \n  \n  \n  \n             \n             \n             \n               Slides  Names, Values and Environments (pdf)\n             \n             \n                \n             \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Nov 12\n             \n             \n               Lecture  Bindings and Environments\n             \n             \n                \n             \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Nov 14\n             \n             \n               Worksheet  WS 12: Bindings and environments (in section)\n             \n             \n                \n             \n                  \n             \n          \n  \n  \n  \n             \n             \n             \n               Homework  HW 12: Bindigns and Envs (due 11/18)\n             \n             \n                \n             \n                  \n             \n          \n     \n     \n  \n   \n  \n\n   Week 13\n\n   \n   \n   \n   \n   \n     \n  \n          \n  \n  \n  \n             \n             \n             About\n             \n             \n               Overview  Unit 13: Scoping\n             \n             \n                \n             \n                  \n             \n          \n  \n  \n  \n             \n             \n             \n               Slides  Scoping Principles (pdf)\n             \n             \n                \n             \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Nov 19\n             \n             \n               Lecture  Scoping Rules\n             \n             \n                \n             \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Nov 21\n             \n             \n               Worksheet  WS 13: Scoping (in section)\n             \n             \n                \n             \n                  \n             \n          \n  \n  \n  \n             \n             \n             \n               Homework  HW 13: Scoping (due 12/02)\n             \n             \n                \n             \n                  \n             \n          \n     \n     \n  \n   \n  \n\n   Week Thanksgiving Break\n\n   \n   \n   \n   \n   \n     \n  \n          \n  \n  \n  \n             \n             \n             Nov 26\n             \n             \n               Lectur2  Thanksgiving\n             \n             \n                \n             \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Nov 28\n             \n             \n               Lectur2  Thanksgiving\n             \n             \n                \n             \n                  \n             \n          \n     \n     \n  \n   \n  \n\n   Week 14\n\n   \n   \n   \n   \n   \n     \n  \n          \n  \n  \n  \n             \n             \n             About\n             \n             \n               Overview  Unit 14: Performance\n             \n             \n                \n             \n                  \n             \n          \n  \n  \n  \n             \n             \n             \n               Slides  Performance and Profiling (pdf)\n             \n             \n                \n             \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Dec 3\n             \n             \n               Lecture  Timing and Profiling Code\n             \n             \n                \n             \n                  \n             \n          \n     \n  \n          \n  \n  \n  \n             \n             \n             Dec 5\n             \n             \n               Worksheet  WS 14: Performance (in section)\n             \n             \n                \n             \n                  \n             \n          \n  \n  \n  \n             \n             \n             \n               Homework  HW 14: Performance and Profiling (due 12/09)\n             \n             \n                \n             \n                  \n             \n          \n     \n     \n  \n   \n  \n\n   Week 15\n\n   \n   \n   \n   \n   \n     \n  \n          \n  \n  \n  \n             \n             \n             About\n             \n             \n               Overview  RRR Week\n             \n             \n                \n             \n                  \n             \n          \n     \n     \n  \n   \n  \n\n   Week 16\n\n   \n   \n   \n   \n   \n     \n  \n          \n  \n  \n  \n             \n             \n             Dec 18\n             \n             \n               Final  Final Exam 12/18 (3-6pm)\n             \n             \n                \n             \n                  \n             \n          \n     \n     \n  \n   \nNo matching items",
     "crumbs": [
       "Home / Schedule"
-    ]
-  },
-  {
-    "objectID": "cheatsheets.html",
-    "href": "cheatsheets.html",
-    "title": "Cheat Sheets",
-    "section": "",
-    "text": "Cheat sheets are your friends, use them at all times.\n\nrstudio-IDE-cheatsheet.pdf\nrmarkdown-cheatsheet-2.0.pdf\nbase-r-cheatsheet.pdf\ndplyr-cheatsheet.pdf\nggplot2-cheatsheet-2.1.pdf\ndata-import-cheatsheet.pdf",
-    "crumbs": [
-      "Other",
-      "Cheatsheets"
-    ]
-  },
-  {
-    "objectID": "units/unit3.html",
-    "href": "units/unit3.html",
-    "title": "3) Matrices and Lists",
-    "section": "",
-    "text": "We continue describing more data objects in R such as\n\natomic objects: matrices (and N-dim arrays)\nnon-atomic objects: lists",
-    "crumbs": [
-      "Units",
-      "3) Matrices and Lists"
-    ]
-  },
-  {
-    "objectID": "units/unit3.html#matrices-and-lists",
-    "href": "units/unit3.html#matrices-and-lists",
-    "title": "3) Matrices and Lists",
-    "section": "",
-    "text": "We continue describing more data objects in R such as\n\natomic objects: matrices (and N-dim arrays)\nnon-atomic objects: lists",
-    "crumbs": [
-      "Units",
-      "3) Matrices and Lists"
-    ]
-  },
-  {
-    "objectID": "units/unit3.html#slides",
-    "href": "units/unit3.html#slides",
-    "title": "3) Matrices and Lists",
-    "section": "📰 Slides",
-    "text": "📰 Slides\n03a-matrices.pdf\n03b-lists.pdf",
-    "crumbs": [
-      "Units",
-      "3) Matrices and Lists"
-    ]
-  },
-  {
-    "objectID": "units/unit3.html#objectives",
-    "href": "units/unit3.html#objectives",
-    "title": "3) Matrices and Lists",
-    "section": "🎯 Objectives",
-    "text": "🎯 Objectives\nAt the end of this week you will be able to:\n\nCreate matrices with the function matrix(), rbind(), and cbind()\nExplain how R internally stores matrices\nUse brackets [] to subset matrices\nDescribe why matrices are atomic objects\nCreation of lists with list()\nDescribe in what sense a list is considered to be a non-atomic vector",
-    "crumbs": [
-      "Units",
-      "3) Matrices and Lists"
-    ]
-  },
-  {
-    "objectID": "units/unit3.html#reading",
-    "href": "units/unit3.html#reading",
-    "title": "3) Matrices and Lists",
-    "section": "📚 Reading",
-    "text": "📚 Reading\n\nhttps://www.gastonsanchez.com/R-coding-basics/3-01-matrices-intro.html\nhttps://www.gastonsanchez.com/R-coding-basics/3-02-matrices-operations.html\nhttps://www.gastonsanchez.com/R-coding-basics/4-01-lists.html\nhttps://adv-r.hadley.nz/vectors-chap.html#lists\nhttps://rstudio-education.github.io/hopr/r-objects.html#matrices\nhttps://rstudio-education.github.io/hopr/r-objects.html#lists",
-    "crumbs": [
-      "Units",
-      "3) Matrices and Lists"
-    ]
-  },
-  {
-    "objectID": "units/unit12.html",
-    "href": "units/unit12.html",
-    "title": "12) Bindings and Environments",
-    "section": "",
-    "text": "This week we go down a technical rabbit hole to learn three important concepts. First, we discuss how R differentiates between names and values. Second, we talk about the so-called copy-on-modify policy which is what R uses to decide when a copy of an object needs to be made. And third, we briefly review environments which are basically the data structure that powers scoping. Understanding all these notions will be helpful in our last week when we get to talk about performance and memory usage of R code.",
-    "crumbs": [
-      "Units",
-      "12) Bindings and Environments"
-    ]
-  },
-  {
-    "objectID": "units/unit12.html#names-values-and-environments",
-    "href": "units/unit12.html#names-values-and-environments",
-    "title": "12) Bindings and Environments",
-    "section": "",
-    "text": "This week we go down a technical rabbit hole to learn three important concepts. First, we discuss how R differentiates between names and values. Second, we talk about the so-called copy-on-modify policy which is what R uses to decide when a copy of an object needs to be made. And third, we briefly review environments which are basically the data structure that powers scoping. Understanding all these notions will be helpful in our last week when we get to talk about performance and memory usage of R code.",
-    "crumbs": [
-      "Units",
-      "12) Bindings and Environments"
-    ]
-  },
-  {
-    "objectID": "units/unit12.html#slides",
-    "href": "units/unit12.html#slides",
-    "title": "12) Bindings and Environments",
-    "section": "📰 Slides",
-    "text": "📰 Slides\n12-names-values-environments.pdf",
-    "crumbs": [
-      "Units",
-      "12) Bindings and Environments"
-    ]
-  },
-  {
-    "objectID": "units/unit12.html#objectives",
-    "href": "units/unit12.html#objectives",
-    "title": "12) Bindings and Environments",
-    "section": "🎯 Objectives",
-    "text": "🎯 Objectives\nAt the end of this week you will be able to:\n\nDescribe the distinction between names and values\nExplain how &lt;- creates a binding, or reference, between a name and a value\nProvide an example of copy-on-modify policy\nDescribe the basic properties of an environment and their special purposes",
-    "crumbs": [
-      "Units",
-      "12) Bindings and Environments"
-    ]
-  },
-  {
-    "objectID": "units/unit12.html#reading",
-    "href": "units/unit12.html#reading",
-    "title": "12) Bindings and Environments",
-    "section": "📚 Reading",
-    "text": "📚 Reading\n\nhttps://adv-r.hadley.nz/names-values.html\nhttps://adv-r.hadley.nz/environments.html",
-    "crumbs": [
-      "Units",
-      "12) Bindings and Environments"
     ]
   },
   {
@@ -1031,124 +932,245 @@
     ]
   },
   {
-    "objectID": "units/unit14.html",
-    "href": "units/unit14.html",
-    "title": "14) Performance",
+    "objectID": "units/unit13.html",
+    "href": "units/unit13.html",
+    "title": "13) Scoping",
     "section": "",
-    "text": "This week we review more underlying principles that have to do with performance in R.",
+    "text": "This week we review more technical aspects of functions in R. Specifically, we will focus on the scoping mechanisms used by R to find the value of a variable.",
     "crumbs": [
       "Units",
-      "14) Performance"
+      "13) Scoping"
     ]
   },
   {
-    "objectID": "units/unit14.html#performance-and-profiling",
-    "href": "units/unit14.html#performance-and-profiling",
-    "title": "14) Performance",
+    "objectID": "units/unit13.html#scoping-rules",
+    "href": "units/unit13.html#scoping-rules",
+    "title": "13) Scoping",
     "section": "",
-    "text": "This week we review more underlying principles that have to do with performance in R.",
+    "text": "This week we review more technical aspects of functions in R. Specifically, we will focus on the scoping mechanisms used by R to find the value of a variable.",
     "crumbs": [
       "Units",
-      "14) Performance"
+      "13) Scoping"
     ]
   },
   {
-    "objectID": "units/unit14.html#slides",
-    "href": "units/unit14.html#slides",
-    "title": "14) Performance",
+    "objectID": "units/unit13.html#slides",
+    "href": "units/unit13.html#slides",
+    "title": "13) Scoping",
     "section": "📰 Slides",
-    "text": "📰 Slides\n14-performance-profiling.pdf",
+    "text": "📰 Slides\n13-functions-scoping.pdf",
     "crumbs": [
       "Units",
-      "14) Performance"
+      "13) Scoping"
     ]
   },
   {
-    "objectID": "units/unit14.html#objectives",
-    "href": "units/unit14.html#objectives",
-    "title": "14) Performance",
+    "objectID": "units/unit13.html#objectives",
+    "href": "units/unit13.html#objectives",
+    "title": "13) Scoping",
     "section": "🎯 Objectives",
-    "text": "🎯 Objectives\nAt the end of this week you will be able to:\n\nProvide an example of copy-on-modify policy.\nApply the function system.time() to time commands in R.\nApply yhe function Rprof() and summaryRprof() to profile code in R.",
+    "text": "🎯 Objectives\n\nProvide an example of “name masking”\nProvide an example of “functions versus variables”\nProvide an example of “fresh start”\nProvide an example of “dynamic lookup”",
     "crumbs": [
       "Units",
-      "14) Performance"
+      "13) Scoping"
     ]
   },
   {
-    "objectID": "units/unit14.html#reading",
-    "href": "units/unit14.html#reading",
-    "title": "14) Performance",
+    "objectID": "units/unit13.html#reading",
+    "href": "units/unit13.html#reading",
+    "title": "13) Scoping",
     "section": "📚 Reading",
-    "text": "📚 Reading\n\nhttp://adv-r.had.co.nz/Performance.html\nhttps://adv-r.hadley.nz/perf-measure.html",
+    "text": "📚 Reading\n\nhttps://adv-r.hadley.nz/functions.html#lexical-scoping\nhttps://adv-r.hadley.nz/names-values.html\nhttp://adv-r.had.co.nz/Environments.html",
     "crumbs": [
       "Units",
-      "14) Performance"
+      "13) Scoping"
     ]
   },
   {
-    "objectID": "units/unit14.html#lab",
-    "href": "units/unit14.html#lab",
-    "title": "14) Performance",
-    "section": "🔬 Lab",
-    "text": "🔬 Lab\nPractice measuring performance.",
-    "crumbs": [
-      "Units",
-      "14) Performance"
-    ]
-  },
-  {
-    "objectID": "units/unit11.html",
-    "href": "units/unit11.html",
-    "title": "11) Functions",
+    "objectID": "units/unit8.html",
+    "href": "units/unit8.html",
+    "title": "8) Midterm",
     "section": "",
-    "text": "This week we review the syntax used by R for writing functions.",
+    "text": "Midterm test on Wed Oct-15, 2pm-3pm in Latimer 120\nLab section will take place as usual (Fri, worksheet 8)\nThere is no HW due this week; HW7 due date extended till Oct-21 (10:50 PM)\nAlso, there is no HW8 (because of midterm). Next assignment will be HW9 (released 10/24)",
     "crumbs": [
       "Units",
-      "11) Functions"
+      "8) Midterm"
     ]
   },
   {
-    "objectID": "units/unit11.html#lecture",
-    "href": "units/unit11.html#lecture",
-    "title": "11) Functions",
+    "objectID": "units/unit8.html#midterm",
+    "href": "units/unit8.html#midterm",
+    "title": "8) Midterm",
     "section": "",
-    "text": "This week we review the syntax used by R for writing functions.",
+    "text": "Midterm test on Wed Oct-15, 2pm-3pm in Latimer 120\nLab section will take place as usual (Fri, worksheet 8)\nThere is no HW due this week; HW7 due date extended till Oct-21 (10:50 PM)\nAlso, there is no HW8 (because of midterm). Next assignment will be HW9 (released 10/24)",
     "crumbs": [
       "Units",
-      "11) Functions"
+      "8) Midterm"
     ]
   },
   {
-    "objectID": "units/unit11.html#slides",
-    "href": "units/unit11.html#slides",
-    "title": "11) Functions",
+    "objectID": "units/unit2.html",
+    "href": "units/unit2.html",
+    "title": "2) Vectors and Factors",
+    "section": "",
+    "text": "In this module we describe data types and their implementation in R objects like vectors and their cousins factors. We’ll focus on important concepts like:\n\nvectors and their data types (e.g. logical, integer, double or real, and character).\ncreation of vectors: various ways and functions to create vectors.\nimplicit coercion rules: what R does when you combine values of different data types.\nvectorization: when R applies calculations or operations to all the elements of a vector (element-wise).\nrecycling: what R does when you perform a calculation with vectors of different length.\nsubsetting (aka indexing, subscripting, bracket notation)",
+    "crumbs": [
+      "Units",
+      "2) Vectors and Factors"
+    ]
+  },
+  {
+    "objectID": "units/unit2.html#vectors-and-factors",
+    "href": "units/unit2.html#vectors-and-factors",
+    "title": "2) Vectors and Factors",
+    "section": "",
+    "text": "In this module we describe data types and their implementation in R objects like vectors and their cousins factors. We’ll focus on important concepts like:\n\nvectors and their data types (e.g. logical, integer, double or real, and character).\ncreation of vectors: various ways and functions to create vectors.\nimplicit coercion rules: what R does when you combine values of different data types.\nvectorization: when R applies calculations or operations to all the elements of a vector (element-wise).\nrecycling: what R does when you perform a calculation with vectors of different length.\nsubsetting (aka indexing, subscripting, bracket notation)",
+    "crumbs": [
+      "Units",
+      "2) Vectors and Factors"
+    ]
+  },
+  {
+    "objectID": "units/unit2.html#slides",
+    "href": "units/unit2.html#slides",
+    "title": "2) Vectors and Factors",
     "section": "📰 Slides",
-    "text": "📰 Slides\n11-functions.pdf",
+    "text": "📰 Slides\n02a-vectors-intro.pdf\n02b-vectors-subsetting.pdf\n02c-factors.pdf",
     "crumbs": [
       "Units",
-      "11) Functions"
+      "2) Vectors and Factors"
     ]
   },
   {
-    "objectID": "units/unit11.html#objectives",
-    "href": "units/unit11.html#objectives",
-    "title": "11) Functions",
+    "objectID": "units/unit2.html#objectives",
+    "href": "units/unit2.html#objectives",
+    "title": "2) Vectors and Factors",
     "section": "🎯 Objectives",
-    "text": "🎯 Objectives\nAt the end of this week you will be able to:\n\nDescribe the main parts of a function in R (i.e. anatomy of a function)\nGive a simple example for creating a function\nExplain the difference between positional arguments, and named arguments\nProvide an example for creating a “binary operator” (or infix) function",
+    "text": "🎯 Objectives\nAt the end of this week you will be able to:\n\nList the four common data types in R, and give examples for them\nExplain why R vectors are said to be atomic objects\nDescribe and give an example of the implicit coercion rules\nDescribe and give an example of vectorized code\nDescribe and give an example of the recycling rule",
     "crumbs": [
       "Units",
-      "11) Functions"
+      "2) Vectors and Factors"
     ]
   },
   {
-    "objectID": "units/unit11.html#reading",
-    "href": "units/unit11.html#reading",
-    "title": "11) Functions",
+    "objectID": "units/unit2.html#reading",
+    "href": "units/unit2.html#reading",
+    "title": "2) Vectors and Factors",
     "section": "📚 Reading",
-    "text": "📚 Reading\n\nhttps://www.gastonsanchez.com/R-coding-basics/5-01-functions-intro.html\nhttps://www.gastonsanchez.com/R-coding-basics/5-06-more-functions.html\nhttps://adv-r.hadley.nz/functions.html",
+    "text": "📚 Reading\n\nhttps://www.gastonsanchez.com/R-coding-basics/1-01-vectors-intro.html\nhttps://www.gastonsanchez.com/R-coding-basics/1-02-vectors-properties.html\nhttps://www.gastonsanchez.com/R-coding-basics/1-03-vectors-creation.html\nhttps://www.gastonsanchez.com/R-coding-basics/1-04-vectors-concepts.html",
     "crumbs": [
       "Units",
-      "11) Functions"
+      "2) Vectors and Factors"
+    ]
+  },
+  {
+    "objectID": "units/unit1.html",
+    "href": "units/unit1.html",
+    "title": "1) Intro",
+    "section": "",
+    "text": "Welcome to STAT 33B. Our first meeting is on Wed Aug-27 where we begin with the usual review of the course policies, logistics, overall expectations, topics in a nutshell, etc.",
+    "crumbs": [
+      "Units",
+      "1) Intro"
+    ]
+  },
+  {
+    "objectID": "units/unit1.html#welcome",
+    "href": "units/unit1.html#welcome",
+    "title": "1) Intro",
+    "section": "",
+    "text": "Welcome to STAT 33B. Our first meeting is on Wed Aug-27 where we begin with the usual review of the course policies, logistics, overall expectations, topics in a nutshell, etc.",
+    "crumbs": [
+      "Units",
+      "1) Intro"
+    ]
+  },
+  {
+    "objectID": "units/unit1.html#slides",
+    "href": "units/unit1.html#slides",
+    "title": "1) Intro",
+    "section": "📰 Slides",
+    "text": "📰 Slides\n01a-getting-started-with-R-and-Rstudio.pdf\n01b-a-bit-of-history-about-R.pdf",
+    "crumbs": [
+      "Units",
+      "1) Intro"
+    ]
+  },
+  {
+    "objectID": "units/unit1.html#software",
+    "href": "units/unit1.html#software",
+    "title": "1) Intro",
+    "section": "💻 Software",
+    "text": "💻 Software\nWe’ll be using R and RStudio, preferably installed in your computer.\nPlease download and install the following software (both are free, and they are available for Max, Windows, and Linux computers)\n\nInstall R\nInstall RStudio (Desktop free version)\n\nIn case of emergency, you can also use RStudio from Berkeley datahub: https://r.datahub.berkeley.edu/",
+    "crumbs": [
+      "Units",
+      "1) Intro"
+    ]
+  },
+  {
+    "objectID": "units/unit1.html#reading",
+    "href": "units/unit1.html#reading",
+    "title": "1) Intro",
+    "section": "📚 Reading",
+    "text": "📚 Reading\nPlease spend some time outside class to review the following documentation:\n\nsyllabus\ncommunication via email\nsome frequently asked questions",
+    "crumbs": [
+      "Units",
+      "1) Intro"
+    ]
+  },
+  {
+    "objectID": "units/unit5.html",
+    "href": "units/unit5.html",
+    "title": "5) Tidyverse part 1",
+    "section": "",
+    "text": "In addition to learning about the “classic” way to work with data frames, we will briefly touch on an “alternative” approach for working with tables provided by the ecosystem of packages known as the \"tidyverse\": https://www.tidyverse.org\nThis week we start with the tidyverse package \"dplyr\". Simply put, \"dplyr\" comes with functions that allow you to manipulate data-tables (e.g. data-frames, and other 2-dimensional objects) using a modern and syntactic way.",
+    "crumbs": [
+      "Units",
+      "5) Tidyverse part 1"
+    ]
+  },
+  {
+    "objectID": "units/unit5.html#intro-to-dplyr-and-ggplot2",
+    "href": "units/unit5.html#intro-to-dplyr-and-ggplot2",
+    "title": "5) Tidyverse part 1",
+    "section": "",
+    "text": "In addition to learning about the “classic” way to work with data frames, we will briefly touch on an “alternative” approach for working with tables provided by the ecosystem of packages known as the \"tidyverse\": https://www.tidyverse.org\nThis week we start with the tidyverse package \"dplyr\". Simply put, \"dplyr\" comes with functions that allow you to manipulate data-tables (e.g. data-frames, and other 2-dimensional objects) using a modern and syntactic way.",
+    "crumbs": [
+      "Units",
+      "5) Tidyverse part 1"
+    ]
+  },
+  {
+    "objectID": "units/unit5.html#slides",
+    "href": "units/unit5.html#slides",
+    "title": "5) Tidyverse part 1",
+    "section": "📰 Slides",
+    "text": "📰 Slides\n05a-intro-to-dplyr.pdf\n05b-intro-to-ggplot.pdf",
+    "crumbs": [
+      "Units",
+      "5) Tidyverse part 1"
+    ]
+  },
+  {
+    "objectID": "units/unit5.html#objectives",
+    "href": "units/unit5.html#objectives",
+    "title": "5) Tidyverse part 1",
+    "section": "🎯 Objectives",
+    "text": "🎯 Objectives\nWe’ll go over the set of functions available in \"dplyr\" to perform common manipulations of tabular data.\n\nSelecting rows with slice(), and filter()\nSelecting columns with select()\nTransforming columns with mutate()\nArranging rows with arrange()\nGrouping data with group_by()\nSummarizing data with summarize()",
+    "crumbs": [
+      "Units",
+      "5) Tidyverse part 1"
+    ]
+  },
+  {
+    "objectID": "units/unit5.html#reading",
+    "href": "units/unit5.html#reading",
+    "title": "5) Tidyverse part 1",
+    "section": "📚 Reading",
+    "text": "📚 Reading\n\nhttps://www.gastonsanchez.com/R-tidy-hurricanes/2-01-intro-ggplot.html\nhttps://www.gastonsanchez.com/R-tidy-hurricanes/2-02-intro-dplyr.html\nIn case you are curious, here’s an interesting opinion by UC-Davis Prof. Norman Matloff about the tidyverse: https://github.com/matloff/TidyverseSkeptic",
+    "crumbs": [
+      "Units",
+      "5) Tidyverse part 1"
     ]
   },
   {
@@ -1207,58 +1229,36 @@
     ]
   },
   {
-    "objectID": "units/unit1.html",
-    "href": "units/unit1.html",
-    "title": "1) Intro",
+    "objectID": "staff.html",
+    "href": "staff.html",
+    "title": "Staff",
     "section": "",
-    "text": "Welcome to STAT 33B. Our first meeting is on Wed Aug-27 where we begin with the usual review of the course policies, logistics, overall expectations, topics in a nutshell, etc.",
+    "text": "Append @berkeley.edu to all email addresses.\nOffice hours are subject to change.\nYou can attend OH of any staff member.\n\n\n\nInstructor: Gaston Sanchez gastonsanchez Office hours:  - TBD, Evans 309\nTutor: Assmaa Aziz tbd Office hours:  - TBD, Evans TBD\n\n\nGSI: Brian Fernando bmfernan Office hours: - TBD, Evans TBD",
     "crumbs": [
-      "Units",
-      "1) Intro"
+      "Other",
+      "Staff"
     ]
   },
   {
-    "objectID": "units/unit1.html#welcome",
-    "href": "units/unit1.html#welcome",
-    "title": "1) Intro",
+    "objectID": "license.html",
+    "href": "license.html",
+    "title": "License",
     "section": "",
-    "text": "Welcome to STAT 33B. Our first meeting is on Wed Aug-27 where we begin with the usual review of the course policies, logistics, overall expectations, topics in a nutshell, etc.",
+    "text": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International\nThis work is licensed under CC BY-NC-SA 4.0\n\n\n\nShare: copy and redistribute the material in any medium or format.\nAdapt: remix, transform, and build upon the material.\nThe licensor cannot revoke these freedoms as long as you follow the license terms.\n\n\n\n\n\nAttribution: You must give appropriate credit , provide a link to the license, and indicate if changes were made . You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.\nNonCommercial: You may not use the material for commercial purposes.\nShareAlike: If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.\nNo additional restrictions: You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.\n\nFor more information, see CC BY-NC-SA 4.0",
     "crumbs": [
-      "Units",
-      "1) Intro"
+      "Other",
+      "License"
     ]
   },
   {
-    "objectID": "units/unit1.html#slides",
-    "href": "units/unit1.html#slides",
-    "title": "1) Intro",
-    "section": "📰 Slides",
-    "text": "📰 Slides\n01a-getting-started-with-R-and-Rstudio.pdf\n01b-a-bit-of-history-about-R.pdf",
+    "objectID": "license.html#cc-by-nc-sa-4.0",
+    "href": "license.html#cc-by-nc-sa-4.0",
+    "title": "License",
+    "section": "",
+    "text": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International\nThis work is licensed under CC BY-NC-SA 4.0\n\n\n\nShare: copy and redistribute the material in any medium or format.\nAdapt: remix, transform, and build upon the material.\nThe licensor cannot revoke these freedoms as long as you follow the license terms.\n\n\n\n\n\nAttribution: You must give appropriate credit , provide a link to the license, and indicate if changes were made . You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.\nNonCommercial: You may not use the material for commercial purposes.\nShareAlike: If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.\nNo additional restrictions: You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.\n\nFor more information, see CC BY-NC-SA 4.0",
     "crumbs": [
-      "Units",
-      "1) Intro"
-    ]
-  },
-  {
-    "objectID": "units/unit1.html#software",
-    "href": "units/unit1.html#software",
-    "title": "1) Intro",
-    "section": "💻 Software",
-    "text": "💻 Software\nWe’ll be using R and RStudio, preferably installed in your computer.\nPlease download and install the following software (both are free, and they are available for Max, Windows, and Linux computers)\n\nInstall R\nInstall RStudio (Desktop free version)\n\nIn case of emergency, you can also use RStudio from Berkeley datahub: https://r.datahub.berkeley.edu/",
-    "crumbs": [
-      "Units",
-      "1) Intro"
-    ]
-  },
-  {
-    "objectID": "units/unit1.html#reading",
-    "href": "units/unit1.html#reading",
-    "title": "1) Intro",
-    "section": "📚 Reading",
-    "text": "📚 Reading\nPlease spend some time outside class to review the following documentation:\n\nsyllabus\ncommunication via email\nsome frequently asked questions",
-    "crumbs": [
-      "Units",
-      "1) Intro"
+      "Other",
+      "License"
     ]
   }
 ]
