@@ -125,6 +125,8 @@ provided with printed worksheets to apply your knowledge by working through
 questions solo or in groups, and also to start working on the weekly coding assignments.
 - You must attend the lab section you are officially enrolled in.
 - Worksheets will be handed-out during section.
+- They consist of questions to check your understanding from the slides 
+you have to read before each lecture.
 - Regardless of whether you work solo or in groups, you must turn in your answered 
 worksheet at the end of section (i.e. individual submission).
 - Turned-in worksheets will be graded credit / no-credit for completion where 
@@ -146,8 +148,8 @@ calculation of your overall grade.
 and will have four more days (Sat, Sun, Mon, Tue) to complete them.
 - HW assignments will submitted through bCourses (individual submission).
 - HW will be __due at 10:50PM on Tuesday__ after they were assigned in section, 
-and there will be a grace submission period of 10 minutes. See Late Submission P
-olicy below for more information about late submissions.
+and there will be a grace submission period of 10 minutes. See Late Submission 
+Policy below for more information about late submissions.
 - You must write your own answers (using your own words and/or code). Copy and 
 plagiarism will not be tolerated (see Academic Honesty policy).
 - If you don't submit all required files, you will receive an automatic 10% deduction.
