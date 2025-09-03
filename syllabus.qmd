@@ -118,7 +118,7 @@ Unfortunately, doing all the work is not a guarantee of enrollment. You will
 only be enrolled if there is space in your lab. Enrollment will proceed by CalCentral.
 
 
-## 📝 Participation (12% of final grade)
+## 📝 Participation and Worksheets (12% of final grade)
 
 - Attending section every week is an essential part of the course and you will be 
 provided with printed worksheets to apply your knowledge by working through 
@@ -140,7 +140,7 @@ From the remaining worksheets, your __lowest 2 scores will be dropped__ in the
 calculation of your overall grade.
 
 
-## 📁 Homework (48% of final grade)
+## 📁 Homework (40% of final grade)
 
 - There will be weekly homework (coding) assignments.
 - These assignments will typically be extensions of the examples presented during lecture.
@@ -187,13 +187,13 @@ Please plan ahead and pace yourself. Don't wait until the last day to do an assi
 <span style="background-color: #b1ff00;">__Don't wait until the last minute to submit your assignments.__</span>
 
  
-## 📄 Midterm (10% of final grade)
+## 📄 Midterm (12% of final grade)
 
 - There will be one in-person midterm scheduled on Oct-15th.
 - The midterm will take place during class time (Wed, 2-3PM, Latimer 120)
 
 
-## 📝 Final Exam (30% of final grade)
+## 📝 Final Exam (36% of final grade)
 
 - There will be one in-person final exam.
 - To pass the course, you have to complete the final exam.
@@ -210,10 +210,10 @@ if you are not available at this date.
 
 Grades will be assigned using the following scheme:
 
-1) **12% Lab** (2 drops)
-2) **48% HW** (2 drops)
-6) **10% Midterm**
-7) **30% Final Exam**
+1) **12% Worksheets and participation** (2 drops)
+2) **40% HW** (2 drops)
+6) **12% Midterm**
+7) **36% Final Exam**
 
 - To complete the course, you must take the final exam.
 - To give you a rough idea of the grading scheme, the assignment of letter grades 

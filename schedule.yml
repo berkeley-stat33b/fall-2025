@@ -39,7 +39,7 @@
         - type: "Slides"
           id: ""
           name: "Introduction to Vectors (pdf)"
-          href: "slides/lec02a-vectors-intro.pdf"
+          href: "slides/02a-vectors-intro.pdf"
           auxil:
             id: "Subsetting Vectors (pdf)"
             href: "slides/02b-vectors-subsetting.pdf"
