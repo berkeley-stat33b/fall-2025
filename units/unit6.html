@@ -324,11 +324,23 @@ gtag('config', 'G-CES9J82GLL', { 'anonymize_ip': true});
 
 <section id="more-about-dplyr-and-ggplot" class="level2">
 <h2 class="anchored" data-anchor-id="more-about-dplyr-and-ggplot">📖 More about dplyr and ggplot</h2>
-<p>Last week we discussed the basics of dplyr and ggplot2. This week we continue reviewing more concepts related to those packages. In addition, we introduce so-called pipelines and the use of the pipe operators <code>|&gt;</code> and <code>%&gt;%</code>.</p>
+<p>Last week we discussed the basics of dplyr. This week you’ll learn about the <strong>Grammar of Graphics</strong> and its central idea: a graphic involves mapping data to geometric objects and their visual attributes. This is the underlying framework behind the mechanics and core functions available in “ggplot2” for creating simple graphics:</p>
+<ul>
+<li>Begin your graphic specification with <code>ggplot()</code></li>
+<li>Indicate where the <code>data</code> comes from</li>
+<li>Establish which variables are going to be mapped into visual attributes: <code>aes()</code></li>
+<li>Decide what kind of geometric object(s) will be used to display data; e.g.&nbsp;<code>geom_point()</code></li>
+<li>Optional: do you need to use <strong>facets</strong>?</li>
+<li>Optional: do you need to explicitly use one or more statistical <strong>transformations</strong>?</li>
+<li>Optional: do you need to explicitly set a non-default system of <strong>coordinates</strong>?</li>
+<li>Optional: do you need to explicitly use a non-default <strong>theme of graphical elements</strong>?</li>
+</ul>
+<p>In addition, we introduce so-called pipelines and the use of the pipe operators <code>|&gt;</code> and <code>%&gt;%</code>.</p>
 </section>
 <section id="slides" class="level2">
 <h2 class="anchored" data-anchor-id="slides">📰 Slides</h2>
-<p><a href="../slides/06a-more-dplyr.pdf">06a-more-dplyr.pdf</a></p>
+<p><a href="../slides/06a-intro-to-ggplot.pdf">06a-intro-to-ggplot.pdf</a></p>
+<p><a href="../slides/06b-more-dplyr.pdf">06b-more-dplyr.pdf</a></p>
 </section>
 <section id="objectives" class="level2">
 <h2 class="anchored" data-anchor-id="objectives">🎯 Objectives</h2>
