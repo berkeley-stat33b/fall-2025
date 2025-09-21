@@ -112,7 +112,7 @@
         - type: "Lecture"
           id: ""
           name: "Data Frames and Tables"
-          href: ""
+          href: "https://bcourses.berkeley.edu/courses/1546288/files/folder/lecture-demos?preview=92020176"
     - date: "Sep 19"
       items:
         - type: "Worksheet"
@@ -160,8 +160,11 @@
           href: "./units/unit6.html"
         - type: "Slides"
           id: ""
-          name: "Climate Change Excessive Heat (cont'd)"
-          href: ""
+          name: "Intro to ggplot (pdf)"
+          href: "slides/06a-intro-to-ggplot.pdf"
+          auxil:
+            id: "More dplyr and tidyr (pdf)"
+            href: "slides/06b-more-dplyr.pdf"
     - date: "Oct 1"
       items:
         - type: "Lecture"
