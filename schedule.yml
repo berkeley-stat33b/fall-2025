@@ -138,8 +138,8 @@
       items:
         - type: "Lecture"
           id: ""
-          name: "Climate Change Excessive Heat"
-          href: ""
+          name: "Data wrangling with dplyr"
+          href: "https://bcourses.berkeley.edu/courses/1546288/files/folder/lecture-demos?preview=92626309"
     - date: "Sep 26"
       items:
         - type: "Worksheet"
