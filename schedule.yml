@@ -162,15 +162,12 @@
           id: ""
           name: "Intro to ggplot (pdf)"
           href: "slides/06a-intro-to-ggplot.pdf"
-          auxil:
-            id: "More dplyr and tidyr (pdf)"
-            href: "slides/06b-more-dplyr.pdf"
     - date: "Oct 1"
       items:
         - type: "Lecture"
           id: ""
-          name: "Tables & dplyr"
-          href: "https://www.gastonsanchez.com/R-tidy-hurricanes/2-02-intro-dplyr.html"
+          name: "Graphics with ggplot2"
+          href: "https://bcourses.berkeley.edu/courses/1546288/files/folder/lecture-demos?preview=92694864"
     - date: "Oct 3"
       items:
         - type: "Worksheet"
@@ -191,14 +188,14 @@
           href: "./units/unit7.html"
         - type: "Slides"
           id: ""
-          name: "None"
-          href: ""
+          name: "More dplyr and tidyr (pdf)"
+          href: "slides/06b-more-dplyr.pdf"
     - date: "Oct 8"
       items:
         - type: "Lecture"
           id: ""
           name: "Choropleth Maps"
-          href: ""
+          href: "https://bcourses.berkeley.edu/courses/1546288/files/folder/lecture-demos?preview=92053410"
     - date: "Oct 10"
       items:
         - type: "Worksheet"
@@ -227,7 +224,7 @@
       items:
         - type: "Worksheet"
           id: ""
-          name: "WS 8: TBD (in section)"
+          name: "WS 8: plots with gganimate"
           href: ""
         - type: "Homework"
           id: ""
@@ -250,7 +247,7 @@
         - type: "Lecture"
           id: ""
           name: "Conditional Statements"
-          href: ""
+          href: "https://bcourses.berkeley.edu/courses/1546288/files/folder/lecture-demos?preview=92053506"
     - date: "Oct 24"
       items:
         - type: "Worksheet"
@@ -278,7 +275,7 @@
         - type: "Lecture"
           id: ""
           name: "Iterations and Loops"
-          href: ""
+          href: "https://bcourses.berkeley.edu/courses/1546288/files/folder/lecture-demos?preview=92169209"
     - date: "Oct 31"
       items:
         - type: "Worksheet"
@@ -306,7 +303,7 @@
         - type: "Lecture"
           id: ""
           name: "About R functions"
-          href: ""
+          href: "https://bcourses.berkeley.edu/courses/1546288/files/folder/lecture-demos?preview=93044356"
     - date: "Nov 7"
       items:
         - type: "Worksheet"
@@ -315,7 +312,7 @@
           href: ""
         - type: "Homework"
           id: ""
-          name: "HW 11: Functions (due 11/11)"
+          name: "HW 11: Functions (due 11/12)"
           href: "https://bcourses.berkeley.edu/courses/1546288/assignments/8929109"
 - week: 12
   days:
@@ -334,7 +331,7 @@
         - type: "Lecture"
           id: ""
           name: "Bindings and Environments"
-          href: ""
+          href: "https://bcourses.berkeley.edu/courses/1546288/files/folder/lecture-demos?preview=93012460"
     - date: "Nov 14"
       items:
         - type: "Worksheet"
@@ -404,7 +401,7 @@
         - type: "Lecture"
           id: ""
           name: "Timing and Profiling Code"
-          href: ""
+          href: "https://bcourses.berkeley.edu/courses/1546288/files/folder/lecture-demos?preview=93305198"
     - date: "Dec 5"
       items:
         - type: "Worksheet"
